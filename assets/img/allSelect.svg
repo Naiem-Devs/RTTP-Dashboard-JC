@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17">
+  <g id="Group_2248" data-name="Group 2248" transform="translate(-1163)">
+    <circle id="Ellipse_155" data-name="Ellipse 155" cx="8.5" cy="8.5" r="8.5" transform="translate(1163)" fill="#199cde"/>
+    <g id="Group_2246" data-name="Group 2246" transform="translate(1168.5 5.5)">
+      <line id="Line_282" data-name="Line 282" x2="5" transform="translate(0 3)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="1.6"/>
+      <line id="Line_283" data-name="Line 283" x2="5" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="1.6"/>
+      <line id="Line_284" data-name="Line 284" x2="2" transform="translate(0 6)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="1.6"/>
+      <path id="Icon_feather-check" data-name="Icon feather-check" d="M9.5,9,7.094,11.408,6,10.313" transform="translate(-1.818 -4.4)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6"/>
+    </g>
+  </g>
+</svg>

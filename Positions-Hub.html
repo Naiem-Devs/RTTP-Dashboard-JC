@@ -1,0 +1,892 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title> Positions Hub</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1"> 
+		<link rel="shortcut icon" type="image/x-icon" href="#">
+        <!-- Place favicon.ico in the root directory -->
+        
+		<!-- CSS here -->
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/owl.carousel.min.css"> 
+        <link rel="stylesheet" href="assets/css/fontawesome.min.css">  
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="assets/css/responsive.css">
+    </head>
+    <body>
+
+    <!-- header-area START -->
+    <div class="header-area" >
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-3 col-5">
+                    <div class="logo-area">
+                        <a href="index.html"><img src="assets/img/logo.svg" alt=""></a>
+                    </div>
+                </div>
+                <div class="col-lg-9 col-7  text-right">
+                    <div class="menu-area">
+                        <nav class="d-none d-lg-block">
+                            <ul id="nav">
+                                <li><a href="#">Dashboard</a></li>
+                                <li><a href="#">Positions Hub</a></li> 
+                                <li><a href="#">EIS Reports</a></li> 
+                                <li><a href="#">Folio Requests</a></li>  
+                            </ul>
+                        </nav>
+                        <div class="action_nav">
+                            <ul>
+                                <li class="filter"><a href="#" class="filter_btn"><img src="assets/img/filter.svg" alt=""></a></li>
+                                <li class="bdr"><a href="#" class="notifications_btn"><img src="assets/img/notifications.svg" alt=""> <span>2</span></a></li>
+                                <li><a href="#" class="settings_btn"><img src="assets/img/settings.svg" alt=""></a></li>
+                                <li class="mobile_menu_btn d-block d-lg-none">
+                                    <a href="#" class="siteBar-btn">
+                                        <img src="assets/img/hamburger.svg" class="hamburger" alt="">
+                                        <img src="assets/img/close.svg" class="close" alt="">
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- mobile-menu START -->
+    <div class="mobile-menu">
+        <div class="main_menu_mobile">
+            <ul>
+                <li><a href="#">Dashboard <i class="fas fa-chevron-right"></i></a></li>
+                <li><a href="#">Positions Hub <i class="fas fa-chevron-right"></i></a></li> 
+                <li><a href="#">EIS Reports <i class="fas fa-chevron-right"></i></a></li> 
+                <li><a href="#">Folio Requests <i class="fas fa-chevron-right"></i></a></li>  
+            </ul>
+        </div>
+        <div class="sort_btn_wrp">
+            <a href="#" class="thm_btn">Sort by Grade Band <i class="fas fa-chevron-down"></i></a>
+            <a href="#" class="thm_btn">Sort by School <i class="fas fa-chevron-down"></i></a>
+            <a href="#" class="thm_btn border">Clear All Filters</a>
+        </div>
+    </div> 
+    <!-- mobile-menu End -->
+
+    <!-- -Filter menu START -->
+    <div class="Filter_menu">
+        <div class="menu_header">
+            <h3>Filter View</h3>
+            <a href="#" class="close filter_btn"><i class="fal fa-times"></i></a>
+        </div>
+        <div class="Filter_menu_content scrollbar_style">
+            <a href="#" class="thm_btn border">Clear All Filters</a>
+            <div class="Filter_cont_blk">
+                <a href="#" class="thm_btn">Sort by Grade Band <i class="fas fa-chevron-up"></i></a>
+                <div class="Filter_cont_wrp">
+                    <ul class="t_left">
+                        <li>
+                            <label class="checkbox_container">Pre-K
+                                <input type="checkbox" checked="checked">
+                                <span class="checkmark"></span>
+                            </label>
+                        </li>
+                        <li>
+                            <label class="checkbox_container">Early Grades and Elementary (K–5)
+                                <input type="checkbox" >
+                                <span class="checkmark"></span>
+                            </label>
+                        </li>
+                        <li>
+                            <label class="checkbox_container">Middle Grades (6–8)
+                                <input type="checkbox" >
+                                <span class="checkmark"></span>
+                            </label>
+                        </li>
+                        <li>
+                            <label class="checkbox_container">High School (9–12)
+                                <input type="checkbox" >
+                                <span class="checkmark"></span>
+                            </label>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="Filter_cont_blk">
+                <a href="#" class="thm_btn">Sort by School <i class="fas fa-chevron-up"></i></a>
+                <div class="Filter_cont_wrp">
+                    <ul class="t_left">
+                        <li>
+                            <label class="checkbox_container">Clearton Elementary
+                                <input type="checkbox" checked="checked">
+                                <span class="checkmark"></span>
+                            </label>
+                        </li>
+                        <li>
+                            <label class="checkbox_container">Greendale Heights Elementary
+                                <input type="checkbox" >
+                                <span class="checkmark"></span>
+                            </label>
+                        </li>
+                        <li>
+                            <label class="checkbox_container deActive">Maple Valley Middle School
+                                <input type="checkbox" >
+                                <span class="checkmark"></span>
+                            </label>
+                        </li>
+                        <li>
+                            <label class="checkbox_container deActive">Oakton High School
+                                <input type="checkbox" >
+                                <span class="checkmark"></span>
+                            </label>
+                        </li>
+                        <li>
+                            <label class="checkbox_container">Sunny Springs Elementary
+                                <input type="checkbox" checked>
+                                <span class="checkmark"></span>
+                            </label>
+                        </li>
+                        <li>
+                            <label class="checkbox_container">Early Grades and Elementary (K–5)
+                                <input type="checkbox" >
+                                <span class="checkmark"></span>
+                            </label>
+                        </li>
+                        <li>
+                            <label class="checkbox_container">Middle Grades (6–8)
+                                <input type="checkbox" >
+                                <span class="checkmark"></span>
+                            </label>
+                        </li>
+                        <li>
+                            <label class="checkbox_container">High School (9–12)
+                                <input type="checkbox" >
+                                <span class="checkmark"></span>
+                            </label>
+                        </li>
+                        <li>
+                            <label class="checkbox_container">Early Grades and Elementary (K–5)
+                                <input type="checkbox" >
+                                <span class="checkmark"></span>
+                            </label>
+                        </li>
+                        <li>
+                            <label class="checkbox_container">Middle Grades (6–8)
+                                <input type="checkbox" >
+                                <span class="checkmark"></span>
+                            </label>
+                        </li>
+                        <li>
+                            <label class="checkbox_container">High School (9–12)
+                                <input type="checkbox" >
+                                <span class="checkmark"></span>
+                            </label>
+                        </li>
+                        <li>
+                            <label class="checkbox_container">Pre-K
+                                <input type="checkbox" >
+                                <span class="checkmark"></span>
+                            </label>
+                        </li>
+                        <li>
+                            <label class="checkbox_container">Early Grades and Elementary (K–5)
+                                <input type="checkbox" >
+                                <span class="checkmark"></span>
+                            </label>
+                        </li>
+                        <li>
+                            <label class="checkbox_container">Middle Grades (6–8)
+                                <input type="checkbox" >
+                                <span class="checkmark"></span>
+                            </label>
+                        </li>
+                        <li>
+                            <label class="checkbox_container">High School (9–12)
+                                <input type="checkbox" >
+                                <span class="checkmark"></span>
+                            </label>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- -Filter menu End -->
+
+    <!-- -Notification START -->
+    <div class="notifications_Menu">
+        <div class="menu_header">
+            <h3>Notification <br>
+                Center</h3>
+            <p>You have <span>2</span> new notifications</p>
+            <a href="#" class="close notifications_btn"><i class="fal fa-times"></i></a>
+        </div>
+        <ul class="notifications_list scrollbar_style">
+            <li>
+                <a href="#" class="notifications_blk active">
+                    <i class="fas fa-bell"></i>
+                    <div class="notific_text">
+                        <p>You have 20 new candidate matches</p>
+                        <span>2 Hours ago  •  Cascadia College EPP</span>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="notifications_blk active">
+                    <i class="fas fa-bell"></i>
+                    <div class="notific_text">
+                        <p>You have 20 new candidate matches</p>
+                        <span>2 Hours ago  •  Cascadia College EPP</span>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="notifications_blk ">
+                    <i class="fas fa-bell"></i>
+                    <div class="notific_text">
+                        <p>You have 20 new candidate matches</p>
+                        <span>2 Hours ago  •  Cascadia College EPP</span>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="notifications_blk ">
+                    <i class="fas fa-bell"></i>
+                    <div class="notific_text">
+                        <p>You have 20 new candidate matches</p>
+                        <span>2 Hours ago  •  Cascadia College EPP</span>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="notifications_blk ">
+                    <i class="fas fa-bell"></i>
+                    <div class="notific_text">
+                        <p>You have 20 new candidate matches</p>
+                        <span>2 Hours ago  •  Cascadia College EPP</span>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="notifications_blk ">
+                    <i class="fas fa-bell"></i>
+                    <div class="notific_text">
+                        <p>You have 20 new candidate matches</p>
+                        <span>2 Hours ago  •  Cascadia College EPP</span>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="notifications_blk ">
+                    <i class="fas fa-bell"></i>
+                    <div class="notific_text">
+                        <p>You have 20 new candidate matches</p>
+                        <span>2 Hours ago  •  Cascadia College EPP</span>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="notifications_blk ">
+                    <i class="fas fa-bell"></i>
+                    <div class="notific_text">
+                        <p>You have 20 new candidate matches</p>
+                        <span>2 Hours ago  •  Cascadia College EPP</span>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="notifications_blk ">
+                    <i class="fas fa-bell"></i>
+                    <div class="notific_text">
+                        <p>You have 20 new candidate matches</p>
+                        <span>2 Hours ago  •  Cascadia College EPP</span>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="notifications_blk ">
+                    <i class="fas fa-bell"></i>
+                    <div class="notific_text">
+                        <p>You have 20 new candidate matches</p>
+                        <span>2 Hours ago  •  Cascadia College EPP</span>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="notifications_blk ">
+                    <i class="fas fa-bell"></i>
+                    <div class="notific_text">
+                        <p>You have 20 new candidate matches</p>
+                        <span>2 Hours ago  •  Cascadia College EPP</span>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="notifications_blk ">
+                    <i class="fas fa-bell"></i>
+                    <div class="notific_text">
+                        <p>You have 20 new candidate matches</p>
+                        <span>2 Hours ago  •  Cascadia College EPP</span>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="notifications_blk ">
+                    <i class="fas fa-bell"></i>
+                    <div class="notific_text">
+                        <p>You have 20 new candidate matches</p>
+                        <span>2 Hours ago  •  Cascadia College EPP</span>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="notifications_blk ">
+                    <i class="fas fa-bell"></i>
+                    <div class="notific_text">
+                        <p>You have 20 new candidate matches</p>
+                        <span>2 Hours ago  •  Cascadia College EPP</span>
+                    </div>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <!-- -Notification End -->
+
+    <!-- -Settings START -->
+    <div class="Settings_menu">
+        <div class="menu_header">
+            <h3>Settings</h3>
+            <a href="#" class="close settings_btn"><i class="fal fa-times"></i></a>
+        </div>
+        <div class="sett_profile">
+            <h4>Profile</h4>
+            <p>bfett@metrocascadiaps.edu</p>
+            <a href="#" class="btn_sm">Change Email</a>
+            <a href="#" class="btn_sm">Change Password</a>
+        </div>
+        <div class="sett_email">
+            <h4>Email Preferences</h4>
+            <p>Select and save the types of email notifications you’d like to receive below. Email me when:</p>
+            <ul>
+                <li>
+                    <label class="checkbox_container">EIS reports are added
+                        <input type="checkbox" checked="checked">
+                        <span class="checkmark"></span>
+                    </label>
+                </li>
+                <li>
+                    <label class="checkbox_container">Positions list is sent to EPP(s)
+                        <input type="checkbox" >
+                        <span class="checkmark"></span>
+                    </label>
+                </li>
+                <li>
+                    <label class="checkbox_container">New position list matches are received
+                        <input type="checkbox" >
+                        <span class="checkmark"></span>
+                    </label>
+                </li>
+                <li>
+                    <label class="checkbox_container">New candidate folio is received
+                        <input type="checkbox" >
+                        <span class="checkmark"></span>
+                    </label>
+                </li>
+            </ul>
+            <a href="#" class="thm_btn border">Save Preferences </a>
+        </div>
+    </div>
+    <!-- -Settings End -->
+
+    <!-- header-area END -->
+
+
+    <main>
+        
+        <!---------hero Section START ---------->
+        <section class="hero-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="hero_title">
+                            <h1>Positions Hub</h1>
+                            <p>Search or filter between in progress, sent or received position lists.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="Positions-list_btn">
+                            <a href="#" class="create_btn" data-bs-toggle="modal" data-bs-target="#position_hub_modal"> Create Positions List <img src="assets/img/plus-circle.svg" alt=""></a>
+                            <a href="#" class="hub_btn"><i class="fas fa-archive"></i> <span>Archived Lists</span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!---------hero Section End ---------->
+        
+
+        <!---------position_hub Section START ---------->
+        <section class="position_hub-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="position_hub_top">
+                            <div class="src_box">
+                                <input type="text" placeholder="Search">
+                                <a href="#"><i class="fas fa-search"></i></a>
+                            </div>
+                            <div class="position_hub_btns">
+                                <ul class="position_hub_nav">
+                                    <li>
+                                        <a href="#" class="active">ALL</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="inp">In Progress</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="ph_send">Sent</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="ph_rec">Received</a>
+                                    </li>
+                                </ul>
+                                <ul class="position_hub_select">
+                                    <li>
+                                        <a href="#" class="active"><i><img src="assets/img/oneSelect.svg" alt=""></i> Select</a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i><img src="assets/img/allSelect.svg" alt=""></i> Select All</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="position_hub_day">
+                            <p>Today</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="metro_scl_blk">
+                            <div class="metro_scl_top v1">
+                                <p>10-05-24 <span>|</span> 32 Positions</p>
+                                <a href="#"><img src="assets/img/pen.svg" alt=""></a>
+                            </div>
+                            <div class="metro_scl_text">
+                                <h6>Metro Cascadia Schools</h6>
+                                <small>Greendale Elementary, Clearton Elementary</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="metro_scl_blk">
+                            <div class="metro_scl_top v1">
+                                <p>10-05-24 <span>|</span> 32 Positions</p>
+                                <a href="#"><img src="assets/img/pen.svg" alt=""></a>
+                            </div>
+                            <div class="metro_scl_text">
+                                <h6>Metro Cascadia Schools</h6>
+                                <small>Greendale Elementary, Clearton Elementary</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="metro_scl_blk">
+                            <div class="metro_scl_top v1">
+                                <p>10-05-24 <span>|</span> 32 Positions</p>
+                                <a href="#"><img src="assets/img/pen.svg" alt=""></a>
+                            </div>
+                            <div class="metro_scl_text">
+                                <h6>Metro Cascadia Schools</h6>
+                                <small>Greendale Elementary, Clearton Elementary</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="metro_scl_blk">
+                            <div class="metro_scl_top v2">
+                                <p>10-05-24 <span>|</span> 32 Positions</p>
+                                <a href="#"><img src="assets/img/send.svg" alt=""></a>
+                            </div>
+                            <div class="metro_scl_text">
+                                <h6>Metro Cascadia Schools</h6>
+                                <small>Greendale Elementary, Clearton Elementary</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="metro_scl_blk">
+                            <div class="metro_scl_top v2">
+                                <p>10-05-24 <span>|</span> 32 Positions</p>
+                                <a href="#"><img src="assets/img/send.svg" alt=""></a>
+                            </div>
+                            <div class="metro_scl_text">
+                                <h6>Metro Cascadia Schools</h6>
+                                <small>Greendale Elementary, Clearton Elementary</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="metro_scl_blk">
+                            <div class="metro_scl_top v2">
+                                <p>10-05-24 <span>|</span> 32 Positions</p>
+                                <a href="#"><img src="assets/img/send.svg" alt=""></a>
+                            </div>
+                            <div class="metro_scl_text">
+                                <h6>Metro Cascadia Schools</h6>
+                                <small>Greendale Elementary, Clearton Elementary</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="metro_scl_blk">
+                            <div class="metro_scl_top v3">
+                                <p>10-05-24 <span>|</span> 32 Positions</p>
+                                <a href="#"><img src="assets/img/user-check.svg" alt=""></a>
+                            </div>
+                            <div class="metro_scl_text">
+                                <h6>Metro Cascadia Schools</h6>
+                                <small>Greendale Elementary, Clearton Elementary</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="metro_scl_blk">
+                            <div class="metro_scl_top v3">
+                                <p>10-05-24 <span>|</span> 32 Positions</p>
+                                <a href="#"><img src="assets/img/user-check.svg" alt=""></a>
+                            </div>
+                            <div class="metro_scl_text">
+                                <h6>Metro Cascadia Schools</h6>
+                                <small>Greendale Elementary, Clearton Elementary</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="metro_scl_blk">
+                            <div class="metro_scl_top v3">
+                                <p>10-05-24 <span>|</span> 32 Positions</p>
+                                <a href="#"><img src="assets/img/user-check.svg" alt=""></a>
+                            </div>
+                            <div class="metro_scl_text">
+                                <h6>Metro Cascadia Schools</h6>
+                                <small>Greendale Elementary, Clearton Elementary</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="position_hub_day">
+                            <p>Yesterday</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="metro_scl_blk">
+                            <div class="metro_scl_top v1">
+                                <p>10-05-24 <span>|</span> 32 Positions</p>
+                                <a href="#"><img src="assets/img/pen.svg" alt=""></a>
+                            </div>
+                            <div class="metro_scl_text">
+                                <h6>Metro Cascadia Schools</h6>
+                                <small>Greendale Elementary, Clearton Elementary</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="metro_scl_blk">
+                            <div class="metro_scl_top v1">
+                                <p>10-05-24 <span>|</span> 32 Positions</p>
+                                <a href="#"><img src="assets/img/pen.svg" alt=""></a>
+                            </div>
+                            <div class="metro_scl_text">
+                                <h6>Metro Cascadia Schools</h6>
+                                <small>Greendale Elementary, Clearton Elementary</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="metro_scl_blk">
+                            <div class="metro_scl_top v1">
+                                <p>10-05-24 <span>|</span> 32 Positions</p>
+                                <a href="#"><img src="assets/img/pen.svg" alt=""></a>
+                            </div>
+                            <div class="metro_scl_text">
+                                <h6>Metro Cascadia Schools</h6>
+                                <small>Greendale Elementary, Clearton Elementary</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="metro_scl_blk">
+                            <div class="metro_scl_top v2">
+                                <p>10-05-24 <span>|</span> 32 Positions</p>
+                                <a href="#"><img src="assets/img/send.svg" alt=""></a>
+                            </div>
+                            <div class="metro_scl_text">
+                                <h6>Metro Cascadia Schools</h6>
+                                <small>Greendale Elementary, Clearton Elementary</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="metro_scl_blk">
+                            <div class="metro_scl_top v2">
+                                <p>10-05-24 <span>|</span> 32 Positions</p>
+                                <a href="#"><img src="assets/img/send.svg" alt=""></a>
+                            </div>
+                            <div class="metro_scl_text">
+                                <h6>Metro Cascadia Schools</h6>
+                                <small>Greendale Elementary, Clearton Elementary</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="metro_scl_blk">
+                            <div class="metro_scl_top v2">
+                                <p>10-05-24 <span>|</span> 32 Positions</p>
+                                <a href="#"><img src="assets/img/send.svg" alt=""></a>
+                            </div>
+                            <div class="metro_scl_text">
+                                <h6>Metro Cascadia Schools</h6>
+                                <small>Greendale Elementary, Clearton Elementary</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="metro_scl_blk">
+                            <div class="metro_scl_top v3">
+                                <p>10-05-24 <span>|</span> 32 Positions</p>
+                                <a href="#"><img src="assets/img/user-check.svg" alt=""></a>
+                            </div>
+                            <div class="metro_scl_text">
+                                <h6>Metro Cascadia Schools</h6>
+                                <small>Greendale Elementary, Clearton Elementary</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="metro_scl_blk">
+                            <div class="metro_scl_top v3">
+                                <p>10-05-24 <span>|</span> 32 Positions</p>
+                                <a href="#"><img src="assets/img/user-check.svg" alt=""></a>
+                            </div>
+                            <div class="metro_scl_text">
+                                <h6>Metro Cascadia Schools</h6>
+                                <small>Greendale Elementary, Clearton Elementary</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="metro_scl_blk">
+                            <div class="metro_scl_top v3">
+                                <p>10-05-24 <span>|</span> 32 Positions</p>
+                                <a href="#"><img src="assets/img/user-check.svg" alt=""></a>
+                            </div>
+                            <div class="metro_scl_text">
+                                <h6>Metro Cascadia Schools</h6>
+                                <small>Greendale Elementary, Clearton Elementary</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="position_hub_day">
+                            <p>Friday, June 30, 2023</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="metro_scl_blk">
+                            <div class="metro_scl_top v1">
+                                <p>10-05-24 <span>|</span> 32 Positions</p>
+                                <a href="#"><img src="assets/img/pen.svg" alt=""></a>
+                            </div>
+                            <div class="metro_scl_text">
+                                <h6>Metro Cascadia Schools</h6>
+                                <small>Greendale Elementary, Clearton Elementary</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="metro_scl_blk">
+                            <div class="metro_scl_top v1">
+                                <p>10-05-24 <span>|</span> 32 Positions</p>
+                                <a href="#"><img src="assets/img/pen.svg" alt=""></a>
+                            </div>
+                            <div class="metro_scl_text">
+                                <h6>Metro Cascadia Schools</h6>
+                                <small>Greendale Elementary, Clearton Elementary</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="metro_scl_blk">
+                            <div class="metro_scl_top v1">
+                                <p>10-05-24 <span>|</span> 32 Positions</p>
+                                <a href="#"><img src="assets/img/pen.svg" alt=""></a>
+                            </div>
+                            <div class="metro_scl_text">
+                                <h6>Metro Cascadia Schools</h6>
+                                <small>Greendale Elementary, Clearton Elementary</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="metro_scl_blk">
+                            <div class="metro_scl_top v2">
+                                <p>10-05-24 <span>|</span> 32 Positions</p>
+                                <a href="#"><img src="assets/img/send.svg" alt=""></a>
+                            </div>
+                            <div class="metro_scl_text">
+                                <h6>Metro Cascadia Schools</h6>
+                                <small>Greendale Elementary, Clearton Elementary</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="metro_scl_blk">
+                            <div class="metro_scl_top v2">
+                                <p>10-05-24 <span>|</span> 32 Positions</p>
+                                <a href="#"><img src="assets/img/send.svg" alt=""></a>
+                            </div>
+                            <div class="metro_scl_text">
+                                <h6>Metro Cascadia Schools</h6>
+                                <small>Greendale Elementary, Clearton Elementary</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="metro_scl_blk">
+                            <div class="metro_scl_top v2">
+                                <p>10-05-24 <span>|</span> 32 Positions</p>
+                                <a href="#"><img src="assets/img/send.svg" alt=""></a>
+                            </div>
+                            <div class="metro_scl_text">
+                                <h6>Metro Cascadia Schools</h6>
+                                <small>Greendale Elementary, Clearton Elementary</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="metro_scl_blk">
+                            <div class="metro_scl_top v3">
+                                <p>10-05-24 <span>|</span> 32 Positions</p>
+                                <a href="#"><img src="assets/img/user-check.svg" alt=""></a>
+                            </div>
+                            <div class="metro_scl_text">
+                                <h6>Metro Cascadia Schools</h6>
+                                <small>Greendale Elementary, Clearton Elementary</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="metro_scl_blk">
+                            <div class="metro_scl_top v3">
+                                <p>10-05-24 <span>|</span> 32 Positions</p>
+                                <a href="#"><img src="assets/img/user-check.svg" alt=""></a>
+                            </div>
+                            <div class="metro_scl_text">
+                                <h6>Metro Cascadia Schools</h6>
+                                <small>Greendale Elementary, Clearton Elementary</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="metro_scl_blk">
+                            <div class="metro_scl_top v3">
+                                <p>10-05-24 <span>|</span> 32 Positions</p>
+                                <a href="#"><img src="assets/img/user-check.svg" alt=""></a>
+                            </div>
+                            <div class="metro_scl_text">
+                                <h6>Metro Cascadia Schools</h6>
+                                <small>Greendale Elementary, Clearton Elementary</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!---------position_hub Section End ---------->
+
+
+        <div class="position_hub_fixed_btn">
+            <a href="#" >Archive</a>
+            <a href="#" class="active">Send</a>
+        </div>
+        
+        <!-- position_hub_modal -->
+        <div class="modal fade" id="position_hub_modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg">
+                <div class="modal-content position_hub_modal">
+                    <div class="modal-header">
+                        <h3>New Positions List</h3>
+                        <p>Name your list below.</p>
+                        <a href="#" data-bs-dismiss="modal">Back <i class="fas fa-chevron-circle-left"></i></a>
+                    </div>
+                    <div class="modal-body">
+                        <form action="">
+                            <div class="Positions_modal_form">
+                                <div class="pf_input_blk">
+                                    <label for="">Name</label>
+                                    <input type="text" placeholder="My List">
+                                </div>
+                                <div class="pf_input_blk">
+                                    <label for="">Details</label>
+                                    <textarea  placeholder="e.g. 2023-24 Greendale Elementary"></textarea>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <a href="#">Create List <i class="fas fa-plus-circle"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+
+    
+    <!---------Footer Section Start ---------->
+    <footer class="footer-area PH_space">
+        <div class="container">
+            <div class="row">
+                <div class="footer_content">
+                    <ul>
+                        <li>
+                            <a href="#">Privacy</a>
+                        </li>
+                        <li>
+                            <a href="#">Terms of Use</a>
+                        </li>
+                        <li>
+                            <a href="#">Settings</a>
+                        </li>
+                    </ul>
+                    <p>© Copyright 2023</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!---------Footer Section End ---------->
+
+
+
+    
+		<!-- JS here --> 
+        <script src="assets/js/jquery-3.4.1.min.js"></script>
+        <script src="assets/js/popper.min.js"></script>
+        <script src="assets/js/bootstrap.min.js"></script>
+        <script src="assets/js/owl.carousel.min.js"></script> 
+        <script src="assets/js/main.js"></script>
+
+    </body>
+</html>
+

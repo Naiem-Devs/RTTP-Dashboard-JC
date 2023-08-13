@@ -1,0 +1,1385 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Positions-List-select</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1"> 
+		<link rel="shortcut icon" type="image/x-icon" href="#">
+        <!-- Place favicon.ico in the root directory -->
+        
+		<!-- CSS here -->
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/owl.carousel.min.css"> 
+        <link rel="stylesheet" href="assets/css/fontawesome.min.css">  
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="assets/css/responsive.css">
+    </head>
+    <body>
+
+    <!-- header-area START -->
+    <div class="header-area" >
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-3 col-5">
+                    <div class="logo-area">
+                        <a href="index.html"><img src="assets/img/logo.svg" alt=""></a>
+                    </div>
+                </div>
+                <div class="col-lg-9 col-7  text-right">
+                    <div class="menu-area">
+                        <nav class="d-none d-lg-block">
+                            <ul id="nav">
+                                <li><a href="#">Dashboard</a></li>
+                                <li><a href="#">Positions Hub</a></li> 
+                                <li><a href="#">EIS Reports</a></li> 
+                                <li><a href="#">Folio Requests</a></li>  
+                            </ul>
+                        </nav>
+                        <div class="action_nav">
+                            <ul>
+                                <li class="filter"><a href="#" class="filter_btn"><img src="assets/img/filter.svg" alt=""></a></li>
+                                <li class="bdr"><a href="#" class="notifications_btn"><img src="assets/img/notifications.svg" alt=""> <span>2</span></a></li>
+                                <li><a href="#" class="settings_btn"><img src="assets/img/settings.svg" alt=""></a></li>
+                                <li class="mobile_menu_btn d-block d-lg-none">
+                                    <a href="#" class="siteBar-btn">
+                                        <img src="assets/img/hamburger.svg" class="hamburger" alt="">
+                                        <img src="assets/img/close.svg" class="close" alt="">
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- mobile-menu START -->
+    <div class="mobile-menu">
+        <div class="main_menu_mobile">
+            <ul>
+                <li><a href="#">Dashboard <i class="fas fa-chevron-right"></i></a></li>
+                <li><a href="#">Positions Hub <i class="fas fa-chevron-right"></i></a></li> 
+                <li><a href="#">EIS Reports <i class="fas fa-chevron-right"></i></a></li> 
+                <li><a href="#">Folio Requests <i class="fas fa-chevron-right"></i></a></li>  
+            </ul>
+        </div>
+        <div class="sort_btn_wrp">
+            <a href="#" class="thm_btn">Sort by Grade Band <i class="fas fa-chevron-down"></i></a>
+            <a href="#" class="thm_btn">Sort by School <i class="fas fa-chevron-down"></i></a>
+            <a href="#" class="thm_btn border">Clear All Filters</a>
+        </div>
+    </div> 
+    <!-- mobile-menu End -->
+
+    <!-- -Filter menu START -->
+    <div class="Filter_menu">
+        <div class="menu_header">
+            <h3>Filter View</h3>
+            <a href="#" class="close filter_btn"><i class="fal fa-times"></i></a>
+        </div>
+        <div class="Filter_menu_content scrollbar_style">
+            <a href="#" class="thm_btn border">Clear All Filters</a>
+            <div class="Filter_cont_blk">
+                <a href="#" class="thm_btn">Sort by Grade Band <i class="fas fa-chevron-up"></i></a>
+                <div class="Filter_cont_wrp">
+                    <ul class="t_left">
+                        <li>
+                            <label class="checkbox_container">Pre-K
+                                <input type="checkbox" checked="checked">
+                                <span class="checkmark"></span>
+                            </label>
+                        </li>
+                        <li>
+                            <label class="checkbox_container">Early Grades and Elementary (K–5)
+                                <input type="checkbox" >
+                                <span class="checkmark"></span>
+                            </label>
+                        </li>
+                        <li>
+                            <label class="checkbox_container">Middle Grades (6–8)
+                                <input type="checkbox" >
+                                <span class="checkmark"></span>
+                            </label>
+                        </li>
+                        <li>
+                            <label class="checkbox_container">High School (9–12)
+                                <input type="checkbox" >
+                                <span class="checkmark"></span>
+                            </label>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="Filter_cont_blk">
+                <a href="#" class="thm_btn">Sort by School <i class="fas fa-chevron-up"></i></a>
+                <div class="Filter_cont_wrp">
+                    <ul class="t_left">
+                        <li>
+                            <label class="checkbox_container">Clearton Elementary
+                                <input type="checkbox" checked="checked">
+                                <span class="checkmark"></span>
+                            </label>
+                        </li>
+                        <li>
+                            <label class="checkbox_container">Greendale Heights Elementary
+                                <input type="checkbox" >
+                                <span class="checkmark"></span>
+                            </label>
+                        </li>
+                        <li>
+                            <label class="checkbox_container deActive">Maple Valley Middle School
+                                <input type="checkbox" >
+                                <span class="checkmark"></span>
+                            </label>
+                        </li>
+                        <li>
+                            <label class="checkbox_container deActive">Oakton High School
+                                <input type="checkbox" >
+                                <span class="checkmark"></span>
+                            </label>
+                        </li>
+                        <li>
+                            <label class="checkbox_container">Sunny Springs Elementary
+                                <input type="checkbox" checked>
+                                <span class="checkmark"></span>
+                            </label>
+                        </li>
+                        <li>
+                            <label class="checkbox_container">Early Grades and Elementary (K–5)
+                                <input type="checkbox" >
+                                <span class="checkmark"></span>
+                            </label>
+                        </li>
+                        <li>
+                            <label class="checkbox_container">Middle Grades (6–8)
+                                <input type="checkbox" >
+                                <span class="checkmark"></span>
+                            </label>
+                        </li>
+                        <li>
+                            <label class="checkbox_container">High School (9–12)
+                                <input type="checkbox" >
+                                <span class="checkmark"></span>
+                            </label>
+                        </li>
+                        <li>
+                            <label class="checkbox_container">Early Grades and Elementary (K–5)
+                                <input type="checkbox" >
+                                <span class="checkmark"></span>
+                            </label>
+                        </li>
+                        <li>
+                            <label class="checkbox_container">Middle Grades (6–8)
+                                <input type="checkbox" >
+                                <span class="checkmark"></span>
+                            </label>
+                        </li>
+                        <li>
+                            <label class="checkbox_container">High School (9–12)
+                                <input type="checkbox" >
+                                <span class="checkmark"></span>
+                            </label>
+                        </li>
+                        <li>
+                            <label class="checkbox_container">Pre-K
+                                <input type="checkbox" >
+                                <span class="checkmark"></span>
+                            </label>
+                        </li>
+                        <li>
+                            <label class="checkbox_container">Early Grades and Elementary (K–5)
+                                <input type="checkbox" >
+                                <span class="checkmark"></span>
+                            </label>
+                        </li>
+                        <li>
+                            <label class="checkbox_container">Middle Grades (6–8)
+                                <input type="checkbox" >
+                                <span class="checkmark"></span>
+                            </label>
+                        </li>
+                        <li>
+                            <label class="checkbox_container">High School (9–12)
+                                <input type="checkbox" >
+                                <span class="checkmark"></span>
+                            </label>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- -Filter menu End -->
+
+    <!-- -Notification START -->
+    <div class="notifications_Menu">
+        <div class="menu_header">
+            <h3>Notification <br>
+                Center</h3>
+            <p>You have <span>2</span> new notifications</p>
+            <a href="#" class="close notifications_btn"><i class="fal fa-times"></i></a>
+        </div>
+        <ul class="notifications_list scrollbar_style">
+            <li>
+                <a href="#" class="notifications_blk active">
+                    <i class="fas fa-bell"></i>
+                    <div class="notific_text">
+                        <p>You have 20 new candidate matches</p>
+                        <span>2 Hours ago  •  Cascadia College EPP</span>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="notifications_blk active">
+                    <i class="fas fa-bell"></i>
+                    <div class="notific_text">
+                        <p>You have 20 new candidate matches</p>
+                        <span>2 Hours ago  •  Cascadia College EPP</span>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="notifications_blk ">
+                    <i class="fas fa-bell"></i>
+                    <div class="notific_text">
+                        <p>You have 20 new candidate matches</p>
+                        <span>2 Hours ago  •  Cascadia College EPP</span>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="notifications_blk ">
+                    <i class="fas fa-bell"></i>
+                    <div class="notific_text">
+                        <p>You have 20 new candidate matches</p>
+                        <span>2 Hours ago  •  Cascadia College EPP</span>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="notifications_blk ">
+                    <i class="fas fa-bell"></i>
+                    <div class="notific_text">
+                        <p>You have 20 new candidate matches</p>
+                        <span>2 Hours ago  •  Cascadia College EPP</span>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="notifications_blk ">
+                    <i class="fas fa-bell"></i>
+                    <div class="notific_text">
+                        <p>You have 20 new candidate matches</p>
+                        <span>2 Hours ago  •  Cascadia College EPP</span>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="notifications_blk ">
+                    <i class="fas fa-bell"></i>
+                    <div class="notific_text">
+                        <p>You have 20 new candidate matches</p>
+                        <span>2 Hours ago  •  Cascadia College EPP</span>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="notifications_blk ">
+                    <i class="fas fa-bell"></i>
+                    <div class="notific_text">
+                        <p>You have 20 new candidate matches</p>
+                        <span>2 Hours ago  •  Cascadia College EPP</span>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="notifications_blk ">
+                    <i class="fas fa-bell"></i>
+                    <div class="notific_text">
+                        <p>You have 20 new candidate matches</p>
+                        <span>2 Hours ago  •  Cascadia College EPP</span>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="notifications_blk ">
+                    <i class="fas fa-bell"></i>
+                    <div class="notific_text">
+                        <p>You have 20 new candidate matches</p>
+                        <span>2 Hours ago  •  Cascadia College EPP</span>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="notifications_blk ">
+                    <i class="fas fa-bell"></i>
+                    <div class="notific_text">
+                        <p>You have 20 new candidate matches</p>
+                        <span>2 Hours ago  •  Cascadia College EPP</span>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="notifications_blk ">
+                    <i class="fas fa-bell"></i>
+                    <div class="notific_text">
+                        <p>You have 20 new candidate matches</p>
+                        <span>2 Hours ago  •  Cascadia College EPP</span>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="notifications_blk ">
+                    <i class="fas fa-bell"></i>
+                    <div class="notific_text">
+                        <p>You have 20 new candidate matches</p>
+                        <span>2 Hours ago  •  Cascadia College EPP</span>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="notifications_blk ">
+                    <i class="fas fa-bell"></i>
+                    <div class="notific_text">
+                        <p>You have 20 new candidate matches</p>
+                        <span>2 Hours ago  •  Cascadia College EPP</span>
+                    </div>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <!-- -Notification End -->
+
+    <!-- -Settings START -->
+    <div class="Settings_menu">
+        <div class="menu_header">
+            <h3>Settings</h3>
+            <a href="#" class="close settings_btn"><i class="fal fa-times"></i></a>
+        </div>
+        <div class="sett_profile">
+            <h4>Profile</h4>
+            <p>bfett@metrocascadiaps.edu</p>
+            <a href="#" class="btn_sm">Change Email</a>
+            <a href="#" class="btn_sm">Change Password</a>
+        </div>
+        <div class="sett_email">
+            <h4>Email Preferences</h4>
+            <p>Select and save the types of email notifications you’d like to receive below. Email me when:</p>
+            <ul>
+                <li>
+                    <label class="checkbox_container">EIS reports are added
+                        <input type="checkbox" checked="checked">
+                        <span class="checkmark"></span>
+                    </label>
+                </li>
+                <li>
+                    <label class="checkbox_container">Positions list is sent to EPP(s)
+                        <input type="checkbox" >
+                        <span class="checkmark"></span>
+                    </label>
+                </li>
+                <li>
+                    <label class="checkbox_container">New position list matches are received
+                        <input type="checkbox" >
+                        <span class="checkmark"></span>
+                    </label>
+                </li>
+                <li>
+                    <label class="checkbox_container">New candidate folio is received
+                        <input type="checkbox" >
+                        <span class="checkmark"></span>
+                    </label>
+                </li>
+            </ul>
+            <a href="#" class="thm_btn border">Save Preferences </a>
+        </div>
+    </div>
+    <!-- -Settings End -->
+
+    <!-- header-area END -->
+
+
+    <main>
+        
+        <!---------hero Section START ---------->
+        <section class="hero-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="hero_title">
+                            <h1>Metro Cascadia Schools</h1>
+                            <p>Greendale Elementary, Clearton Elementary</p>
+                            <a href="#" class="pen_icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="13.033" height="14.891" viewBox="0 0 13.033 14.891">
+                                    <path id="Union_7" data-name="Union 7" d="M.389,14.439a1.692,1.692,0,0,1-.364-1.378l.6-3.485L8.355.677a1.831,1.831,0,0,1,2.844,0l1.308,1.5a2.231,2.231,0,0,1,.527,1.463,2.235,2.235,0,0,1-.527,1.468L4.621,14.176l-3.035.686a1.143,1.143,0,0,1-.253.029A1.244,1.244,0,0,1,.389,14.439Zm1.283-1.472,1.034-.234-.83-.955Zm.883-3.015,1.735,2L9.936,5.456,8.2,3.461ZM9.487,1.98l-.155.178,1.737,1.995.306-.348a.256.256,0,0,0,.058-.16.251.251,0,0,0-.058-.165l-1.3-1.5a.387.387,0,0,0-.294-.137A.381.381,0,0,0,9.487,1.98Z" fill="#fff"/>
+                                 </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="Positions-list_btn p_lbtn">
+                            <a href="#" class="create_btn"> Add Positions <img src="assets/img/plus-circle.svg" alt=""></a>
+                            <a href="#" class="create_btn" style="background: var(--thmColor); color: #fff;">
+                                 Send List 
+                                 <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+                                    <g id="Group_1648" data-name="Group 1648" transform="translate(0.032)">
+                                      <circle id="Ellipse_154" data-name="Ellipse 154" cx="15" cy="15" r="15" transform="translate(-0.032)" fill="#D2ECF7"/>
+                                      <path id="Union_16" data-name="Union 16" d="M-5824.848-12154.4a.392.392,0,0,1-.183-.336v-4.614a.4.4,0,0,1,.342-.4l6.443-.922-6.443-.923a.4.4,0,0,1-.342-.394v-4.614a.4.4,0,0,1,.183-.339.4.4,0,0,1,.382-.024l12.855,5.931a.4.4,0,0,1,.232.363.4.4,0,0,1-.232.363l-12.855,5.933a.394.394,0,0,1-.165.037A.39.39,0,0,1-5824.848-12154.4Z" transform="translate(5834.581 12175.667)" fill="#199CDE"/>
+                                    </g>
+                                </svg>                                  
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!---------hero Section End ---------->
+
+                
+        <!---------Education Section START ---------->
+        <section class="Education-area sec_up SelectFunction" >
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="position_hub_top mb-5">
+                            <div class="src_box">
+                                <input type="text" placeholder="Search">
+                                <a href="#"><i class="fas fa-search"></i></a>
+                            </div>
+                            <div class="position_hub_btns ">
+                                <div class="sort_dropdown">
+                                    <a href="#" class="thm_btn v2">
+                                        Sort by 
+                                        <span>Recently Added</span> 
+                                        <i class="fas fa-chevron-down"></i>
+                                    </a>
+                                    <ul>
+                                        <li>
+                                            <label class="checkbox_container">District
+                                                <input type="radio" name="District">
+                                                <span class="checkmark radio_btn"></span>
+                                            </label>
+                                        </li>
+                                        <li>
+                                            <label class="checkbox_container">Recently Added
+                                                <input type="radio" name="District">
+                                                <span class="checkmark radio_btn"></span>
+                                            </label>
+                                        </li>
+                                        <li class="mb-0 border-0 pb-0">
+                                            <label class="checkbox_container mb-0">Most Vacancies
+                                                <input type="radio" name="District">
+                                                <span class="checkmark radio_btn"></span>
+                                            </label>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <ul class="position_hub_select">
+                                    <li>
+                                        <a href="#" class="oneSelect"><i><img src="assets/img/oneSelect.svg" alt=""></i> Select</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="allSelect"><i><img src="assets/img/allSelect.svg" alt=""></i> Select All</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-12">
+                        <div class="Edu_blk">
+                            <ul >
+                                <li>
+                                    <div class="Edu_serial">
+                                        <span>1.</span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="edu_title">
+                                        <h5>K–5, General Education</h5>
+                                        <small>Greendale Elementary School</small>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="edu_date">
+                                        <small>Last Updated <span>06.30.23</span></small>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="edu_add_btn" >
+                                        <button type="submit">
+                                            <svg id="expand_icon" data-name="expand icon" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+                                                <circle id="Ellipse_160" data-name="Ellipse 160" cx="15" cy="15" r="15" transform="translate(30) rotate(90)" fill="#eaeaea"/>
+                                                <path id="Path_796" data-name="Path 796" d="M499.531,13354.33l6,5.144-6,5.143" transform="translate(13374.328 -486.531) rotate(90)" fill="none" stroke="#b2b2b2" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+                                            </svg>
+                                        </button>
+                                    </div>
+                                    <label class="checkbox_container">
+                                        <input type="checkbox" >
+                                        <span class="checkmark"></span>
+                                    </label>
+                                </li>
+                            </ul>
+                            <ul class="Edu_blk_content">
+                                <li></li>
+                                <li>
+                                    <div class="ebc_top">
+                                        <div class="ebc_top-title">
+                                            <h4>K-5 Interventionist</h4>
+                                            <p>Clearton Elementary</p>
+                                        </div>
+                                        <div class="ebc__txt">
+                                            <small>Position Overview</small>
+                                            <p>Provides direct, explicit research-based interventions in addition to supporting access to core instruction for students who have an Individualized Education Program (IEP).</p>
+                                        </div>
+                                    </div>
+                                    <div class="ebc_btm">
+                                        <div class="ebc_top_select">
+                                            <small>Required Endorsements</small>
+                                            <div class="ebc_left_select_item">
+                                                <span><i class="fas fa-check-circle"></i> <p>144</p> Interventionist K-8</span>
+                                                <span><i class="fas fa-check-circle"></i> <p>490</p> ESL PreK-12</span>
+                                            </div>
+                                            <small>Preferred Endorsements</small>
+                                            <div class="ebc_left_select_item">
+                                                <span><i class="fas fa-check-circle"></i> <p>499</p> Elementary K-6</span>
+                                            </div>
+                                        </div>
+                                        <div class="ebc_Experience">
+                                            <small>Required Experience</small>
+                                            <div class="ebc_Exp_blk">
+                                                <span>License Type</span>
+                                                <h6>Professional</h6>
+                                            </div>
+                                            <div class="ebc_Exp_blk">
+                                                <span>Clinical Experience</span>
+                                                <h6>Classroom Faculty</h6>
+                                            </div>
+                                            <div class="ebc_Exp_blk">
+                                                <span>Preferred Experience</span>
+                                                <h6>Bilingual in English <br>
+                                                    and Spanish</h6>
+                                            </div>
+                                            <div class="ebc_Exp_blk">
+                                                <span></span>
+                                                <h6>Experience in developing literacy <br> 
+                                                    and STEM IEPs for students</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <a href="#" class="thm_btn border">View Position Listing</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="Edu_blk active">
+                            <ul>
+                                <li>
+                                    <div class="Edu_serial">
+                                        <span>2.</span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="edu_title">
+                                        <h5>K–5, ESL</h5>
+                                        <small>Greendale Elementary School</small>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="edu_date">
+                                        <small>Last Updated <span>06.30.23</span></small>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="edu_add_btn">
+                                        <button type="submit" class="active">
+                                            <svg id="expand_icon" data-name="expand icon" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+                                                <circle id="Ellipse_160" data-name="Ellipse 160" cx="15" cy="15" r="15" transform="translate(30) rotate(90)" fill="#eaeaea"/>
+                                                <path id="Path_796" data-name="Path 796" d="M499.531,13354.33l6,5.144-6,5.143" transform="translate(13374.328 -486.531) rotate(90)" fill="none" stroke="#b2b2b2" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+                                            </svg>
+                                        </button>
+                                    </div>
+                                    <label class="checkbox_container">
+                                        <input type="checkbox" >
+                                        <span class="checkmark"></span>
+                                    </label>
+                                </li>
+                            </ul>
+                            <ul class="Edu_blk_content">
+                                <li></li>
+                                <li>
+                                    <div class="ebc_top">
+                                        <div class="ebc_top-title">
+                                            <h4>K-5 Interventionist</h4>
+                                            <p>Clearton Elementary</p>
+                                        </div>
+                                        <div class="ebc__txt">
+                                            <small>Position Overview</small>
+                                            <p>Provides direct, explicit research-based interventions in addition to supporting access to core instruction for students who have an Individualized Education Program (IEP).</p>
+                                        </div>
+                                    </div>
+                                    <div class="ebc_btm">
+                                        <div class="ebc_top_select">
+                                            <small>Required Endorsements</small>
+                                            <div class="ebc_left_select_item">
+                                                <span><i class="fas fa-check-circle"></i> <p>144</p> Interventionist K-8</span>
+                                                <span><i class="fas fa-check-circle"></i> <p>490</p> ESL PreK-12</span>
+                                            </div>
+                                            <small>Preferred Endorsements</small>
+                                            <div class="ebc_left_select_item">
+                                                <span><i class="fas fa-check-circle"></i> <p>499</p> Elementary K-6</span>
+                                            </div>
+                                        </div>
+                                        <div class="ebc_Experience">
+                                            <small>Required Experience</small>
+                                            <div class="ebc_Exp_blk">
+                                                <span>License Type</span>
+                                                <h6>Professional</h6>
+                                            </div>
+                                            <div class="ebc_Exp_blk">
+                                                <span>Clinical Experience</span>
+                                                <h6>Classroom Faculty</h6>
+                                            </div>
+                                            <div class="ebc_Exp_blk">
+                                                <span>Preferred Experience</span>
+                                                <h6>Bilingual in English <br>
+                                                    and Spanish</h6>
+                                            </div>
+                                            <div class="ebc_Exp_blk">
+                                                <span></span>
+                                                <h6>Experience in developing literacy <br> 
+                                                    and STEM IEPs for students</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <a href="#" class="thm_btn border">View Position Listing</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="Edu_blk">
+                            <ul>
+                                <li>
+                                    <div class="Edu_serial">
+                                        <span>3.</span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="edu_title">
+                                        <h5>K–5, General Education</h5>
+                                        <small>Greendale Elementary School</small>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="edu_date">
+                                        <small>Last Updated <span>06.30.23</span></small>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="edu_add_btn">
+                                        <button type="submit">
+                                            <svg id="expand_icon" data-name="expand icon" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+                                                <circle id="Ellipse_160" data-name="Ellipse 160" cx="15" cy="15" r="15" transform="translate(30) rotate(90)" fill="#eaeaea"/>
+                                                <path id="Path_796" data-name="Path 796" d="M499.531,13354.33l6,5.144-6,5.143" transform="translate(13374.328 -486.531) rotate(90)" fill="none" stroke="#b2b2b2" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+                                            </svg>
+                                        </button>
+                                    </div>
+                                    <label class="checkbox_container">
+                                        <input type="checkbox" >
+                                        <span class="checkmark"></span>
+                                    </label>
+                                </li>
+                            </ul>
+                            <ul class="Edu_blk_content">
+                                <li></li>
+                                <li>
+                                    <div class="ebc_top">
+                                        <div class="ebc_top-title">
+                                            <h4>K-5 Interventionist</h4>
+                                            <p>Clearton Elementary</p>
+                                        </div>
+                                        <div class="ebc__txt">
+                                            <small>Position Overview</small>
+                                            <p>Provides direct, explicit research-based interventions in addition to supporting access to core instruction for students who have an Individualized Education Program (IEP).</p>
+                                        </div>
+                                    </div>
+                                    <div class="ebc_btm">
+                                        <div class="ebc_top_select">
+                                            <small>Required Endorsements</small>
+                                            <div class="ebc_left_select_item">
+                                                <span><i class="fas fa-check-circle"></i> <p>144</p> Interventionist K-8</span>
+                                                <span><i class="fas fa-check-circle"></i> <p>490</p> ESL PreK-12</span>
+                                            </div>
+                                            <small>Preferred Endorsements</small>
+                                            <div class="ebc_left_select_item">
+                                                <span><i class="fas fa-check-circle"></i> <p>499</p> Elementary K-6</span>
+                                            </div>
+                                        </div>
+                                        <div class="ebc_Experience">
+                                            <small>Required Experience</small>
+                                            <div class="ebc_Exp_blk">
+                                                <span>License Type</span>
+                                                <h6>Professional</h6>
+                                            </div>
+                                            <div class="ebc_Exp_blk">
+                                                <span>Clinical Experience</span>
+                                                <h6>Classroom Faculty</h6>
+                                            </div>
+                                            <div class="ebc_Exp_blk">
+                                                <span>Preferred Experience</span>
+                                                <h6>Bilingual in English <br>
+                                                    and Spanish</h6>
+                                            </div>
+                                            <div class="ebc_Exp_blk">
+                                                <span></span>
+                                                <h6>Experience in developing literacy <br> 
+                                                    and STEM IEPs for students</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <a href="#" class="thm_btn border">View Position Listing</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="Edu_blk">
+                            <ul>
+                                <li>
+                                    <div class="Edu_serial">
+                                        <span>3.</span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="edu_title">
+                                        <h5>K–5, General Education</h5>
+                                        <small>Greendale Elementary School</small>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="edu_date">
+                                        <small>Last Updated <span>06.30.23</span></small>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="edu_add_btn">
+                                        <button type="submit">
+                                            <svg id="expand_icon" data-name="expand icon" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+                                                <circle id="Ellipse_160" data-name="Ellipse 160" cx="15" cy="15" r="15" transform="translate(30) rotate(90)" fill="#eaeaea"/>
+                                                <path id="Path_796" data-name="Path 796" d="M499.531,13354.33l6,5.144-6,5.143" transform="translate(13374.328 -486.531) rotate(90)" fill="none" stroke="#b2b2b2" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+                                            </svg>
+                                        </button>
+                                    </div>
+                                    <label class="checkbox_container">
+                                        <input type="checkbox" >
+                                        <span class="checkmark"></span>
+                                    </label>
+                                </li>
+                            </ul>
+                            <ul class="Edu_blk_content">
+                                <li></li>
+                                <li>
+                                    <div class="ebc_top">
+                                        <div class="ebc_top-title">
+                                            <h4>K-5 Interventionist</h4>
+                                            <p>Clearton Elementary</p>
+                                        </div>
+                                        <div class="ebc__txt">
+                                            <small>Position Overview</small>
+                                            <p>Provides direct, explicit research-based interventions in addition to supporting access to core instruction for students who have an Individualized Education Program (IEP).</p>
+                                        </div>
+                                    </div>
+                                    <div class="ebc_btm">
+                                        <div class="ebc_top_select">
+                                            <small>Required Endorsements</small>
+                                            <div class="ebc_left_select_item">
+                                                <span><i class="fas fa-check-circle"></i> <p>144</p> Interventionist K-8</span>
+                                                <span><i class="fas fa-check-circle"></i> <p>490</p> ESL PreK-12</span>
+                                            </div>
+                                            <small>Preferred Endorsements</small>
+                                            <div class="ebc_left_select_item">
+                                                <span><i class="fas fa-check-circle"></i> <p>499</p> Elementary K-6</span>
+                                            </div>
+                                        </div>
+                                        <div class="ebc_Experience">
+                                            <small>Required Experience</small>
+                                            <div class="ebc_Exp_blk">
+                                                <span>License Type</span>
+                                                <h6>Professional</h6>
+                                            </div>
+                                            <div class="ebc_Exp_blk">
+                                                <span>Clinical Experience</span>
+                                                <h6>Classroom Faculty</h6>
+                                            </div>
+                                            <div class="ebc_Exp_blk">
+                                                <span>Preferred Experience</span>
+                                                <h6>Bilingual in English <br>
+                                                    and Spanish</h6>
+                                            </div>
+                                            <div class="ebc_Exp_blk">
+                                                <span></span>
+                                                <h6>Experience in developing literacy <br> 
+                                                    and STEM IEPs for students</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <a href="#" class="thm_btn border">View Position Listing</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="Edu_blk">
+                            <ul>
+                                <li>
+                                    <div class="Edu_serial">
+                                        <span>3.</span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="edu_title">
+                                        <h5>K–5, General Education</h5>
+                                        <small>Greendale Elementary School</small>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="edu_date">
+                                        <small>Last Updated <span>06.30.23</span></small>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="edu_add_btn">
+                                        <button type="submit">
+                                            <svg id="expand_icon" data-name="expand icon" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+                                                <circle id="Ellipse_160" data-name="Ellipse 160" cx="15" cy="15" r="15" transform="translate(30) rotate(90)" fill="#eaeaea"/>
+                                                <path id="Path_796" data-name="Path 796" d="M499.531,13354.33l6,5.144-6,5.143" transform="translate(13374.328 -486.531) rotate(90)" fill="none" stroke="#b2b2b2" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+                                            </svg>
+                                        </button>
+                                    </div>
+                                    <label class="checkbox_container">
+                                        <input type="checkbox" >
+                                        <span class="checkmark"></span>
+                                    </label>
+                                </li>
+                            </ul>
+                            <ul class="Edu_blk_content">
+                                <li></li>
+                                <li>
+                                    <div class="ebc_top">
+                                        <div class="ebc_top-title">
+                                            <h4>K-5 Interventionist</h4>
+                                            <p>Clearton Elementary</p>
+                                        </div>
+                                        <div class="ebc__txt">
+                                            <small>Position Overview</small>
+                                            <p>Provides direct, explicit research-based interventions in addition to supporting access to core instruction for students who have an Individualized Education Program (IEP).</p>
+                                        </div>
+                                    </div>
+                                    <div class="ebc_btm">
+                                        <div class="ebc_top_select">
+                                            <small>Required Endorsements</small>
+                                            <div class="ebc_left_select_item">
+                                                <span><i class="fas fa-check-circle"></i> <p>144</p> Interventionist K-8</span>
+                                                <span><i class="fas fa-check-circle"></i> <p>490</p> ESL PreK-12</span>
+                                            </div>
+                                            <small>Preferred Endorsements</small>
+                                            <div class="ebc_left_select_item">
+                                                <span><i class="fas fa-check-circle"></i> <p>499</p> Elementary K-6</span>
+                                            </div>
+                                        </div>
+                                        <div class="ebc_Experience">
+                                            <small>Required Experience</small>
+                                            <div class="ebc_Exp_blk">
+                                                <span>License Type</span>
+                                                <h6>Professional</h6>
+                                            </div>
+                                            <div class="ebc_Exp_blk">
+                                                <span>Clinical Experience</span>
+                                                <h6>Classroom Faculty</h6>
+                                            </div>
+                                            <div class="ebc_Exp_blk">
+                                                <span>Preferred Experience</span>
+                                                <h6>Bilingual in English <br>
+                                                    and Spanish</h6>
+                                            </div>
+                                            <div class="ebc_Exp_blk">
+                                                <span></span>
+                                                <h6>Experience in developing literacy <br> 
+                                                    and STEM IEPs for students</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <a href="#" class="thm_btn border">View Position Listing</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="Edu_blk">
+                            <ul>
+                                <li>
+                                    <div class="Edu_serial">
+                                        <span>3.</span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="edu_title">
+                                        <h5>K–5, General Education</h5>
+                                        <small>Greendale Elementary School</small>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="edu_date">
+                                        <small>Last Updated <span>06.30.23</span></small>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="edu_add_btn">
+                                        <button type="submit">
+                                            <svg id="expand_icon" data-name="expand icon" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+                                                <circle id="Ellipse_160" data-name="Ellipse 160" cx="15" cy="15" r="15" transform="translate(30) rotate(90)" fill="#eaeaea"/>
+                                                <path id="Path_796" data-name="Path 796" d="M499.531,13354.33l6,5.144-6,5.143" transform="translate(13374.328 -486.531) rotate(90)" fill="none" stroke="#b2b2b2" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+                                            </svg>
+                                        </button>
+                                    </div>
+                                    <label class="checkbox_container">
+                                        <input type="checkbox" >
+                                        <span class="checkmark"></span>
+                                    </label>
+                                </li>
+                            </ul>
+                            <ul class="Edu_blk_content">
+                                <li></li>
+                                <li>
+                                    <div class="ebc_top">
+                                        <div class="ebc_top-title">
+                                            <h4>K-5 Interventionist</h4>
+                                            <p>Clearton Elementary</p>
+                                        </div>
+                                        <div class="ebc__txt">
+                                            <small>Position Overview</small>
+                                            <p>Provides direct, explicit research-based interventions in addition to supporting access to core instruction for students who have an Individualized Education Program (IEP).</p>
+                                        </div>
+                                    </div>
+                                    <div class="ebc_btm">
+                                        <div class="ebc_top_select">
+                                            <small>Required Endorsements</small>
+                                            <div class="ebc_left_select_item">
+                                                <span><i class="fas fa-check-circle"></i> <p>144</p> Interventionist K-8</span>
+                                                <span><i class="fas fa-check-circle"></i> <p>490</p> ESL PreK-12</span>
+                                            </div>
+                                            <small>Preferred Endorsements</small>
+                                            <div class="ebc_left_select_item">
+                                                <span><i class="fas fa-check-circle"></i> <p>499</p> Elementary K-6</span>
+                                            </div>
+                                        </div>
+                                        <div class="ebc_Experience">
+                                            <small>Required Experience</small>
+                                            <div class="ebc_Exp_blk">
+                                                <span>License Type</span>
+                                                <h6>Professional</h6>
+                                            </div>
+                                            <div class="ebc_Exp_blk">
+                                                <span>Clinical Experience</span>
+                                                <h6>Classroom Faculty</h6>
+                                            </div>
+                                            <div class="ebc_Exp_blk">
+                                                <span>Preferred Experience</span>
+                                                <h6>Bilingual in English <br>
+                                                    and Spanish</h6>
+                                            </div>
+                                            <div class="ebc_Exp_blk">
+                                                <span></span>
+                                                <h6>Experience in developing literacy <br> 
+                                                    and STEM IEPs for students</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <a href="#" class="thm_btn border">View Position Listing</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="Edu_blk">
+                            <ul>
+                                <li>
+                                    <div class="Edu_serial">
+                                        <span>3.</span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="edu_title">
+                                        <h5>K–5, General Education</h5>
+                                        <small>Greendale Elementary School</small>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="edu_date">
+                                        <small>Last Updated <span>06.30.23</span></small>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="edu_add_btn">
+                                        <button type="submit">
+                                            <svg id="expand_icon" data-name="expand icon" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+                                                <circle id="Ellipse_160" data-name="Ellipse 160" cx="15" cy="15" r="15" transform="translate(30) rotate(90)" fill="#eaeaea"/>
+                                                <path id="Path_796" data-name="Path 796" d="M499.531,13354.33l6,5.144-6,5.143" transform="translate(13374.328 -486.531) rotate(90)" fill="none" stroke="#b2b2b2" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+                                            </svg>
+                                        </button>
+                                    </div>
+                                    <label class="checkbox_container">
+                                        <input type="checkbox" >
+                                        <span class="checkmark"></span>
+                                    </label>
+                                </li>
+                            </ul>
+                            <ul class="Edu_blk_content">
+                                <li></li>
+                                <li>
+                                    <div class="ebc_top">
+                                        <div class="ebc_top-title">
+                                            <h4>K-5 Interventionist</h4>
+                                            <p>Clearton Elementary</p>
+                                        </div>
+                                        <div class="ebc__txt">
+                                            <small>Position Overview</small>
+                                            <p>Provides direct, explicit research-based interventions in addition to supporting access to core instruction for students who have an Individualized Education Program (IEP).</p>
+                                        </div>
+                                    </div>
+                                    <div class="ebc_btm">
+                                        <div class="ebc_top_select">
+                                            <small>Required Endorsements</small>
+                                            <div class="ebc_left_select_item">
+                                                <span><i class="fas fa-check-circle"></i> <p>144</p> Interventionist K-8</span>
+                                                <span><i class="fas fa-check-circle"></i> <p>490</p> ESL PreK-12</span>
+                                            </div>
+                                            <small>Preferred Endorsements</small>
+                                            <div class="ebc_left_select_item">
+                                                <span><i class="fas fa-check-circle"></i> <p>499</p> Elementary K-6</span>
+                                            </div>
+                                        </div>
+                                        <div class="ebc_Experience">
+                                            <small>Required Experience</small>
+                                            <div class="ebc_Exp_blk">
+                                                <span>License Type</span>
+                                                <h6>Professional</h6>
+                                            </div>
+                                            <div class="ebc_Exp_blk">
+                                                <span>Clinical Experience</span>
+                                                <h6>Classroom Faculty</h6>
+                                            </div>
+                                            <div class="ebc_Exp_blk">
+                                                <span>Preferred Experience</span>
+                                                <h6>Bilingual in English <br>
+                                                    and Spanish</h6>
+                                            </div>
+                                            <div class="ebc_Exp_blk">
+                                                <span></span>
+                                                <h6>Experience in developing literacy <br> 
+                                                    and STEM IEPs for students</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <a href="#" class="thm_btn border">View Position Listing</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="Edu_blk">
+                            <ul>
+                                <li>
+                                    <div class="Edu_serial">
+                                        <span>3.</span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="edu_title">
+                                        <h5>K–5, General Education</h5>
+                                        <small>Greendale Elementary School</small>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="edu_date">
+                                        <small>Last Updated <span>06.30.23</span></small>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="edu_add_btn">
+                                        <button type="submit">
+                                            <svg id="expand_icon" data-name="expand icon" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+                                                <circle id="Ellipse_160" data-name="Ellipse 160" cx="15" cy="15" r="15" transform="translate(30) rotate(90)" fill="#eaeaea"/>
+                                                <path id="Path_796" data-name="Path 796" d="M499.531,13354.33l6,5.144-6,5.143" transform="translate(13374.328 -486.531) rotate(90)" fill="none" stroke="#b2b2b2" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+                                            </svg>
+                                        </button>
+                                    </div>
+                                    <label class="checkbox_container">
+                                        <input type="checkbox" >
+                                        <span class="checkmark"></span>
+                                    </label>
+                                </li>
+                            </ul>
+                            <ul class="Edu_blk_content">
+                                <li></li>
+                                <li>
+                                    <div class="ebc_top">
+                                        <div class="ebc_top-title">
+                                            <h4>K-5 Interventionist</h4>
+                                            <p>Clearton Elementary</p>
+                                        </div>
+                                        <div class="ebc__txt">
+                                            <small>Position Overview</small>
+                                            <p>Provides direct, explicit research-based interventions in addition to supporting access to core instruction for students who have an Individualized Education Program (IEP).</p>
+                                        </div>
+                                    </div>
+                                    <div class="ebc_btm">
+                                        <div class="ebc_top_select">
+                                            <small>Required Endorsements</small>
+                                            <div class="ebc_left_select_item">
+                                                <span><i class="fas fa-check-circle"></i> <p>144</p> Interventionist K-8</span>
+                                                <span><i class="fas fa-check-circle"></i> <p>490</p> ESL PreK-12</span>
+                                            </div>
+                                            <small>Preferred Endorsements</small>
+                                            <div class="ebc_left_select_item">
+                                                <span><i class="fas fa-check-circle"></i> <p>499</p> Elementary K-6</span>
+                                            </div>
+                                        </div>
+                                        <div class="ebc_Experience">
+                                            <small>Required Experience</small>
+                                            <div class="ebc_Exp_blk">
+                                                <span>License Type</span>
+                                                <h6>Professional</h6>
+                                            </div>
+                                            <div class="ebc_Exp_blk">
+                                                <span>Clinical Experience</span>
+                                                <h6>Classroom Faculty</h6>
+                                            </div>
+                                            <div class="ebc_Exp_blk">
+                                                <span>Preferred Experience</span>
+                                                <h6>Bilingual in English <br>
+                                                    and Spanish</h6>
+                                            </div>
+                                            <div class="ebc_Exp_blk">
+                                                <span></span>
+                                                <h6>Experience in developing literacy <br> 
+                                                    and STEM IEPs for students</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <a href="#" class="thm_btn border">View Position Listing</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="Edu_blk">
+                            <ul>
+                                <li>
+                                    <div class="Edu_serial">
+                                        <span>3.</span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="edu_title">
+                                        <h5>K–5, General Education</h5>
+                                        <small>Greendale Elementary School</small>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="edu_date">
+                                        <small>Last Updated <span>06.30.23</span></small>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="edu_add_btn">
+                                        <button type="submit">
+                                            <svg id="expand_icon" data-name="expand icon" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+                                                <circle id="Ellipse_160" data-name="Ellipse 160" cx="15" cy="15" r="15" transform="translate(30) rotate(90)" fill="#eaeaea"/>
+                                                <path id="Path_796" data-name="Path 796" d="M499.531,13354.33l6,5.144-6,5.143" transform="translate(13374.328 -486.531) rotate(90)" fill="none" stroke="#b2b2b2" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+                                            </svg>
+                                        </button>
+                                    </div>
+                                    <label class="checkbox_container">
+                                        <input type="checkbox" >
+                                        <span class="checkmark"></span>
+                                    </label>
+                                </li>
+                            </ul>
+                            <ul class="Edu_blk_content">
+                                <li></li>
+                                <li>
+                                    <div class="ebc_top">
+                                        <div class="ebc_top-title">
+                                            <h4>K-5 Interventionist</h4>
+                                            <p>Clearton Elementary</p>
+                                        </div>
+                                        <div class="ebc__txt">
+                                            <small>Position Overview</small>
+                                            <p>Provides direct, explicit research-based interventions in addition to supporting access to core instruction for students who have an Individualized Education Program (IEP).</p>
+                                        </div>
+                                    </div>
+                                    <div class="ebc_btm">
+                                        <div class="ebc_top_select">
+                                            <small>Required Endorsements</small>
+                                            <div class="ebc_left_select_item">
+                                                <span><i class="fas fa-check-circle"></i> <p>144</p> Interventionist K-8</span>
+                                                <span><i class="fas fa-check-circle"></i> <p>490</p> ESL PreK-12</span>
+                                            </div>
+                                            <small>Preferred Endorsements</small>
+                                            <div class="ebc_left_select_item">
+                                                <span><i class="fas fa-check-circle"></i> <p>499</p> Elementary K-6</span>
+                                            </div>
+                                        </div>
+                                        <div class="ebc_Experience">
+                                            <small>Required Experience</small>
+                                            <div class="ebc_Exp_blk">
+                                                <span>License Type</span>
+                                                <h6>Professional</h6>
+                                            </div>
+                                            <div class="ebc_Exp_blk">
+                                                <span>Clinical Experience</span>
+                                                <h6>Classroom Faculty</h6>
+                                            </div>
+                                            <div class="ebc_Exp_blk">
+                                                <span>Preferred Experience</span>
+                                                <h6>Bilingual in English <br>
+                                                    and Spanish</h6>
+                                            </div>
+                                            <div class="ebc_Exp_blk">
+                                                <span></span>
+                                                <h6>Experience in developing literacy <br> 
+                                                    and STEM IEPs for students</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <a href="#" class="thm_btn border">View Position Listing</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="Edu_blk">
+                            <ul>
+                                <li>
+                                    <div class="Edu_serial">
+                                        <span>3.</span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="edu_title">
+                                        <h5>K–5, General Education</h5>
+                                        <small>Greendale Elementary School</small>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="edu_date">
+                                        <small>Last Updated <span>06.30.23</span></small>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="edu_add_btn">
+                                        <button type="submit">
+                                            <svg id="expand_icon" data-name="expand icon" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+                                                <circle id="Ellipse_160" data-name="Ellipse 160" cx="15" cy="15" r="15" transform="translate(30) rotate(90)" fill="#eaeaea"/>
+                                                <path id="Path_796" data-name="Path 796" d="M499.531,13354.33l6,5.144-6,5.143" transform="translate(13374.328 -486.531) rotate(90)" fill="none" stroke="#b2b2b2" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+                                            </svg>
+                                        </button>
+                                    </div>
+                                    <label class="checkbox_container">
+                                        <input type="checkbox" >
+                                        <span class="checkmark"></span>
+                                    </label>
+                                </li>
+                            </ul>
+                            <ul class="Edu_blk_content">
+                                <li></li>
+                                <li>
+                                    <div class="ebc_top">
+                                        <div class="ebc_top-title">
+                                            <h4>K-5 Interventionist</h4>
+                                            <p>Clearton Elementary</p>
+                                        </div>
+                                        <div class="ebc__txt">
+                                            <small>Position Overview</small>
+                                            <p>Provides direct, explicit research-based interventions in addition to supporting access to core instruction for students who have an Individualized Education Program (IEP).</p>
+                                        </div>
+                                    </div>
+                                    <div class="ebc_btm">
+                                        <div class="ebc_top_select">
+                                            <small>Required Endorsements</small>
+                                            <div class="ebc_left_select_item">
+                                                <span><i class="fas fa-check-circle"></i> <p>144</p> Interventionist K-8</span>
+                                                <span><i class="fas fa-check-circle"></i> <p>490</p> ESL PreK-12</span>
+                                            </div>
+                                            <small>Preferred Endorsements</small>
+                                            <div class="ebc_left_select_item">
+                                                <span><i class="fas fa-check-circle"></i> <p>499</p> Elementary K-6</span>
+                                            </div>
+                                        </div>
+                                        <div class="ebc_Experience">
+                                            <small>Required Experience</small>
+                                            <div class="ebc_Exp_blk">
+                                                <span>License Type</span>
+                                                <h6>Professional</h6>
+                                            </div>
+                                            <div class="ebc_Exp_blk">
+                                                <span>Clinical Experience</span>
+                                                <h6>Classroom Faculty</h6>
+                                            </div>
+                                            <div class="ebc_Exp_blk">
+                                                <span>Preferred Experience</span>
+                                                <h6>Bilingual in English <br>
+                                                    and Spanish</h6>
+                                            </div>
+                                            <div class="ebc_Exp_blk">
+                                                <span></span>
+                                                <h6>Experience in developing literacy <br> 
+                                                    and STEM IEPs for students</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <a href="#" class="thm_btn border">View Position Listing</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!---------Education Section End ---------->
+
+        <div class="add_list_fixed remove" style="background: #E36159; color: #fff;">
+            <a href="#">
+                Remove from List
+                <i class="fas fa-minus-circle"></i>                                   
+            </a>
+        </div>
+
+    </main>
+
+
+
+    
+    <!---------Footer Section Start ---------->
+    <footer class="footer-area PH_space">
+        <div class="container">
+            <div class="row">
+                <div class="footer_content">
+                    <ul>
+                        <li>
+                            <a href="#">Privacy</a>
+                        </li>
+                        <li>
+                            <a href="#">Terms of Use</a>
+                        </li>
+                        <li>
+                            <a href="#">Settings</a>
+                        </li>
+                    </ul>
+                    <p>© Copyright 2023</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!---------Footer Section End ---------->
+
+
+
+    
+		<!-- JS here --> 
+        <script src="assets/js/jquery-3.4.1.min.js"></script>
+        <script src="assets/js/popper.min.js"></script>
+        <script src="assets/js/bootstrap.min.js"></script>
+        <script src="assets/js/owl.carousel.min.js"></script> 
+        <script src="assets/js/main.js"></script>
+
+    </body>
+</html>
+

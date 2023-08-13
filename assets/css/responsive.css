@@ -1,0 +1,1022 @@
+/* Big screen :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+    .deshboard-Hero_left h1 {
+        font-size: 41px;
+    }
+    
+    .deshboard-Hero_right {
+        max-width: 630px;
+    }
+
+}
+
+
+/* Normal screen :992px. */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+    :root {
+        --f18: 18px;
+        --f20: 20px;
+        --f24: 22px;
+        --f28: 25px;
+        --f32: 30px;
+        --f36: 33px;
+        --f48: 42px;
+      }
+      
+
+    .menu-area nav ul li a {
+        margin-right: 18px;
+    }
+
+    .deshboard-Hero_left h1 {
+        font-size: 40px;
+    }
+    
+    .deshboard-Hero_right {
+        max-width: 465px;
+    }
+
+    .db_progress {
+        width: 200px;
+    }
+    
+    .DB_hero_slider {
+        max-width: 350px;
+    }
+    .notific_text p {
+        font-size: 13px;
+    }
+    
+    .notific_text span {
+        font-size: 10px;
+    }
+    
+    .notifications_blk {
+        padding-left: 10px;
+    }
+    
+    .Vacancy_blk p {
+        font-size: 10px;
+        word-spacing: 3px;
+    }
+    
+    .create_btn {
+        font-size: 15px;
+    }
+    
+    .hub_btn {
+        font-size: 15px;
+    }
+    .Endorsements_content ul li, .Experience_content ul li {
+        flex: 0 0 48%;
+    }
+    
+    .Endorsements_content ul, .Experience_content ul {
+        width: calc(100% - 0px);
+        gap: 15px;
+    }
+    
+    .Experience_blk h6 {
+        font-size: 15px;
+    }
+    
+    .Experience_blk {
+        padding-right: 0;
+    }
+    .metro_scl_slider {
+        padding: 0 10px;
+    }
+    .folio-req-wrp .folio-req_cont .ebc_left_select_item {
+        flex-direction: column;
+        align-items: start;
+    }
+    
+    .folio-req-wrp .folio-req_cont .ebc_left_select_item small {
+        display: none;
+    }
+}
+
+ 
+/* Tablet screen :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+
+    :root {
+        --f18: 18px;
+        --f20: 20px;
+        --f24: 22px;
+        --f28: 24px;
+        --f32: 28px;
+        --f36: 32px;
+        --f48: 38px;
+      }
+
+    li.filter {
+        display: none;
+    }
+
+.action_nav ul li.bdr {
+    border-left: none;
+}
+
+
+    .deshboard-Hero_right {
+        margin-bottom: 0;
+        margin: auto;
+        margin-top: 30px;
+    }
+    
+    section.deshboard-Hero {
+        padding-bottom: 60px;
+    }
+    
+    section.Positions-list-area .Positions-list_btn {
+        justify-content: center;
+    }
+    
+    .Positions-list_blk {
+        margin-bottom: 40px;
+    }
+
+    section.hero-area .Positions-list_btn {
+        justify-content: center;
+        margin-top: 20px;
+    }
+    
+    .position_hub_select {
+        gap: 10px !important;
+    }
+    
+    .position_hub_select li a {
+        width: 120px;
+    }
+    
+    .position_hub_btns {
+        gap: 20px;
+    }
+    .Report_contents ul li {
+        flex: 0 0 48%;
+    }
+    
+    .Report_contents ul {
+        justify-content: space-between;
+    }
+    .ebc_left_select_item span {
+        margin: 4px 0;
+    }
+
+.folio-req-wrp .folio-req_cont div:first-child {
+    flex: 0 0 40%;
+}
+    
+    .ebc_top-title, .ebc_top_select {
+        flex: 0 0 39%;
+    }
+    .folio_content a.thm_btn.border {
+        max-width: 200px;
+    }
+    
+    .folio_content ul {
+        gap: 10px;
+        font-size: 14px;
+    }
+    
+    .folio_title h6 {
+        font-size: 14px;
+    }
+    .Tara_hero .hero_title {width: max-content;}
+    .Endorsements_content ul li, .Experience_content ul li {
+        flex: 0 0 100%;
+    }
+
+.MyCandi_wrp .Endorsements_content ul li, .MyCandi_wrp .Experience_content ul li {
+    flex: 0 0 22.5%;
+}
+
+section.MyCandi-area {
+    margin-bottom: 60px;
+}
+    .Positions-list-area .row .col-lg-4 {
+        max-width: 49%;
+    }
+    .cand_blk .Endorsements_content ul, .cand_blk .Experience_content ul {
+        gap: 15px;
+        width: 100%;
+        padding: 0;
+    }
+ 
+    
+    .cand_blk .Endor_blk {
+        width: 190px;
+    }
+    
+    .GradeTeacher > ul {
+        padding-left: 20px;
+    }
+    
+    .gt-work {
+        padding-right: 15px;
+    }
+    
+    .gt-ctg span {
+        font-size: 12px;
+    }
+    
+    .gt-title h6 {
+        font-size: 14px;
+    }
+    
+    .edu_date small span {
+        font-size: 12px;
+    }
+    
+    .gt-work p {
+        font-size: 11px;
+    }
+    
+    .cand_blk .cand_id p {
+        font-size: 12px;
+    }
+    
+    .cand_title h6 {
+        font-size: 15px;
+    }
+    .sanding_blk {
+        margin-top: 20px;
+    }
+    .Credentials_blk .Endorsements_content ul li, .Credentials_blk .Experience_content ul li {
+        flex: 0 0 100%;
+    }
+    .v3 .deshboard-Hero_left {
+        text-align: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+    .folio-req-wrp .folio-req_cont .ebc_left_select_item {
+        flex-direction: column;
+        align-items: start;
+        gap: 0;
+    }
+    
+    .folio-req-wrp .folio-req_cont .ebc_left_select_item small {
+        display: none;
+    }
+    .create_folio {
+        transform: unset;
+        margin: auto;
+    }
+
+.opt_btn {
+    margin: 50px auto;
+}
+    
+    .FolioView-area.v3 .ebc_top, .FolioView-area.v3 .ebc_btm {
+        margin: auto;
+        margin-bottom: 50px;
+    }
+
+}
+
+ 
+/* small screen :320px. */
+@media (max-width: 767px) {
+    :root {
+        --f18: 16px;
+        --f20: 18px;
+        --f24: 20px;
+        --f28: 22px;
+        --f32: 24px;
+        --f36: 28px;
+        --f48: 32px;
+      }
+      .header-area{
+        padding: 15px 0 20px;
+      }
+    li.filter {
+        display: none;
+    }
+
+a.settings_btn {
+    margin-right: 0;
+}
+
+    a.siteBar-btn.change img.hamburger {
+        display: none;
+    }
+    
+    a.siteBar-btn.change img.close {
+        display: block;
+    }
+
+.action_nav ul li.bdr {
+    border-left: none;
+}
+
+
+    .deshboard-Hero_right {
+        margin-bottom: 0;
+        margin: auto;
+        margin-top: 30px;
+    }
+    
+    section.deshboard-Hero {
+        padding-bottom: 60px;
+    }
+    
+    section.Positions-list-area .Positions-list_btn {
+        justify-content: center;
+        align-items: center;
+    }
+
+.plb_title {
+    margin-bottom: 15px;
+}
+
+.col-lg-4.col-md-6.noti-col {
+    max-width: 100%;
+}
+    
+    .Positions-list_blk {
+        margin-bottom: 40px;
+        height: auto;
+    }
+
+.candidates_list {
+    margin: 10px 0;
+}
+
+.Positions-list-area .row .col-lg-4 {
+    max-width: 100%;
+}
+
+.Positions-list_blk a.thm_btn.border {
+    margin-top: 10px;
+}
+    .deshboard-Hero_left h1 {
+        font-size: 30px;
+    }
+    .deshboard-Hero_right h4 {
+        font-size: 18px;
+        line-height: 2.5;
+    }
+    
+    .deshboard-Hero_right>small {
+        line-height: 1.7;
+        max-width: 300px;
+        margin: 10px auto;
+    }
+    img.chart_img {
+        display: none !important;
+    }
+    
+    img.chart_imgMD {
+        display: block !important;
+    }
+    .db_progress_blk {flex-direction: column-reverse;flex: 0 0 25%;}
+    
+    .DB_hero_slider {display: flex;justify-content: center;}
+    
+    .db_progress {
+        width: 32px;
+        height: 130px;
+        border-radius: 5px 5px 0px 0px;
+        margin: 10px 0 8px;
+    }
+    
+    .db_progress i {
+        width: 100% !important;
+        border-radius: 5px 5px 0px 0px;
+        bottom: 0 !important;
+        top: auto;
+    }
+    
+    .dbp-1 .db_progress i {
+        height: 75%;
+    }
+    
+    .dbp-year {
+        display: none;
+    }
+    
+    .dbp-month {
+        display: block;
+        text-align: center;
+        font-size: 12px;
+        color: var(--offColorText);
+        font-weight: 600;
+    }
+    
+    .dbp-2 .db_progress i {
+        height: 50%;
+    }
+    
+    .dbp-3 .db_progress i {
+        height: 66%;
+    }
+    
+    .hub_btn span {
+        display: none;
+    }
+    
+    .hub_btn {
+        width: 70px;
+        justify-content: center;
+        align-items: center;
+    }
+
+a.hub_btn.Send_list_btn {
+    height: 60px;
+    width: auto;
+    padding: 0 15px;
+}
+
+a.hub_btn.Send_list_btn span {
+    display: inline-block;
+}
+
+.create_btn {
+    height: 60px;
+    padding: 0 20px;
+}
+
+.ple a.create_btn {
+    padding: 0 20px;
+}
+
+section.Positions-list-area.v2 a.create_btn {
+    font-size: 15px;
+    padding: 0 18px;
+}
+
+.ple.create_btn {
+    padding: 0 10px;
+}
+.footer_content {
+    font-size: 14px;
+}
+
+.footer_content ul {
+    gap: 20px;
+}
+
+section.hero-area .Positions-list_btn {
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.Positions-list_btn.p_lbtn a {
+    padding: 0 16px;
+}
+
+.Positions-list-empty {height: 300px;}
+
+.position_hub_btns {
+    flex-direction: column;
+}
+
+.position_hub_btns.v3 ul {
+    flex-wrap: wrap;
+    gap: 10px !important;
+    justify-content: start;
+    margin-bottom: 0;
+}
+
+.position_hub_nav {
+    width: 100%;
+    margin-bottom: 20px;
+    gap: 5px !important;
+    justify-content: center;
+}
+
+.Report-area .position_hub_nav {
+    gap: 10px !important;
+}
+
+.Report-area .position_hub_nav li a {
+    width: 100%;
+}
+
+.Report-area .position_hub_nav li {
+    flex: 0 0 31%;
+}
+
+.position_hub_nav li a {
+    font-size: 11px;
+    max-width: 100%;
+    width: max-content;
+    padding: 0 18px;
+    margin: auto;
+    height: 30px;
+    border-radius: 6px;
+}
+
+.position_hub_nav li {
+    flex: unset;
+}
+
+.position_hub_modal .modal-header a {
+    position: unset;
+    margin-top: 20px;
+    width: max-content;
+    margin-left: auto;
+}
+
+.position_hub_modal .modal-header {
+    padding: 30px;
+}
+
+.Positions_modal_form {
+    padding: 20px 10px 0;
+}
+
+.pf_input_blk textarea {
+    height: 200px;
+}
+
+.position_hub_fixed_btn a {
+    height: 50px;
+}
+
+.PH_space {
+    margin-bottom: 60px;
+}
+
+.Report_contents ul li {
+    flex: 0 0 98%;
+}
+.Education-area .position_hub_btns ul li a {
+    width: 100%;
+}
+
+.Education-area .position_hub_btns ul li {
+    flex: 0 0 48%;
+}
+
+.Education-area .position_hub_btns ul {
+    width: 100%;
+    gap: 10px !important;
+    justify-content: space-between;
+    padding: 0 5px;
+    margin-top: 20px;
+}
+
+.position_hub_top {
+    max-width: 400px;
+    margin-inline: auto;
+}
+.Edu_blk ul {
+    flex-wrap: wrap;
+    justify-content: end;
+    align-items: baseline;
+}
+
+.Edu_blk ul li {
+}
+
+.Edu_blk ul li {
+    flex: 0 0 90%;
+    position: unset;
+}
+
+.Edu_blk ul li:first-child {
+    flex: 0 0 10%;
+}
+
+.edu_date {
+    text-align: left;
+    margin-top: 10px;
+}
+
+.edu_add_btn {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+}
+
+.edu_modal_body {
+    padding: 20px 30px 10px;
+}
+
+.ed_hb {
+    margin-bottom: 30px;
+}
+
+.Edu_blk .checkbox_container {
+    top: 20px;
+    right: 10px;
+}
+
+a.add_plus {
+    width: 30px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    height: 30px;
+}
+
+.add_plus i {
+    margin: 0;
+}
+
+a.add_plus span {
+    display: none;
+}
+.ebc_left_select_item span {
+    margin: 4px 0;
+}
+
+.ebc_top-title, .ebc_top_select {
+    flex: 0 0 39%;
+}
+.ebc_top {
+    flex-direction: column;
+}
+
+.ebc_btm {
+    flex-direction: column;
+}
+
+.ebc_Experience {
+    flex-direction: column;
+}
+.epp_list_wrp {
+    padding-left: 30px;
+}
+
+.select_epp_list {
+    padding-left: 30px;
+    padding-right: 0;
+    position: relative;
+}
+
+.select_epp_list:after {
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 100%;
+    background: linear-gradient(266deg, white, transparent);
+    right: 0;
+    top: 0;
+}
+
+.select_epp_list div {
+    overflow: auto;
+    padding-bottom: 10px;
+}
+
+.select_epp_list ul {
+    width: max-content;
+    overflow: auto;
+    margin-right: 10px;
+}
+.CollegeEPP_content {
+    padding: 40px 30px;
+    margin-top: -360px;
+}
+
+.CollegeEPP_btn {
+    flex-direction: column;
+}
+
+.CollegeEPP_btn a {
+    font-size: 14px;
+    height: 50px;
+}
+
+.opt-hero {
+    padding-bottom: 350px;
+}
+
+.CollegeEPP_content p {
+    font-size: 14px;
+}
+
+.folio_content a.thm_btn.border {max-width: 100%;}
+
+.folio_content ul {
+    gap: 10px;
+    font-size: 14px;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+li.separet {
+    width: 100%;
+    height: 1px;
+    background: #B2B2B2;
+}
+
+li.separet span {
+    display: none;
+}
+
+.folio_content {
+    flex-direction: column;
+}
+
+.folio_title h6 {
+    font-size: 14px;
+}
+.Endorsements_content ul li, .Experience_content ul li {
+    flex: 0 0 100%;
+}
+
+.MyCandi_wrp .Endorsements_content ul li, .MyCandi_wrp .Experience_content ul li {
+    flex: 0 0 100%;
+}
+.Endorsements_content ul, .Experience_content ul {
+    width: 100%;
+}
+
+.FolioView_top_content {
+    padding: 30px;
+}
+
+.Experience_content {
+    margin-top: 30px;
+}
+
+.cand_blk .Experience_content h4 {
+    margin-bottom: 15px;
+}
+
+.FolioView-area .ebc_btm {
+    margin-top: 30px;
+}
+
+section.FolioView-area .ebc_Experience {
+    flex-direction: unset;
+}
+
+.ebc_Exp_blk h6 br {display: none;}
+.Tara_hero .hero_back_right {
+    margin-top: -40px;
+}
+.cand_blk .Endorsements_content ul, .cand_blk .Experience_content ul {
+    gap: 15px;
+    width: 100%;
+    padding: 0;
+}
+
+.cand_blk .Endorsements_content ul li, .cand_blk .Experience_content ul li {
+}
+
+.cand_blk .Endor_blk {
+}
+
+.GradeTeacher > ul {
+    padding: 20px;
+    padding-left: 20px;
+}
+
+.gt-work {
+    padding-right: 15px;
+}
+
+.gt-ctg span {
+    font-size: 12px;
+}
+
+.gt-title h6 {
+    font-size: 14px;
+}
+
+.edu_date small span {
+    font-size: 12px;
+}
+
+.gt-work p {
+    font-size: 11px;
+    margin: 10px 0;
+}
+
+.cand_blk .cand_id p {
+    font-size: 12px;
+}
+
+.cand_title h6 {
+    font-size: 15px;
+}
+.cand_blk ul li:first-child {
+    flex: 0 0 100%;
+}
+
+.cand_blk .edu_add_btn {
+    position: unset;
+    margin-left: 35px;
+}
+
+.cand_blk .edu_add_btn button {
+    position: absolute;
+    top: 0;
+    right: 5px;
+}
+
+.cand_blk .Edu_blk_content {
+    padding: 0 20px;
+}
+
+.cand_blk .Experience_content ul li .Experience_blk {
+    background: #EAEAEA;
+    padding: 10px;
+}
+
+.cand_blk .edu_date {
+    /* position: absolute; */
+    width: 100%;
+    left: 0;
+    top: 21px;
+    /* width: max-content; */
+    margin-top: 0;
+    display: flex;
+    text-align: right;
+}
+
+.cand_blk .gd_add_btn .edu_date small span {
+    display: block;
+}
+
+.cand_blk li {flex: 0 0 100% !important;}
+
+.cand_id {
+    margin-top: 5px;
+    margin-left: 35px;
+    margin-bottom: 15px;
+}
+.GradeTeacher > ul li {
+}
+
+.gt-ctg {
+    text-align: left;
+}
+
+.gd_add_btn {
+    flex-direction: column-reverse;
+    justify-content: end;
+    position: absolute;
+    top: 0;
+    right: 0;
+    gap: 10px;
+    top: 20px;
+    right: 15px;
+}
+
+.gd_add_btn a {
+    width: max-content;
+    margin-left: auto;
+}
+.GradeTeacher.active .hidenContent {
+    padding: 20px;
+}
+.sanding_blk {
+    margin-top: 20px;
+}
+.Send_modal_terms {
+    padding: 20px;
+}
+
+.Send_candidate_row ul li {
+    padding: 20px;
+}
+
+.Send_candidate_row .metro_scl_top p span {
+    margin: 0px 2px;
+}
+
+.Send_candidate_row .metro_scl_top p {
+    font-size: 11px;
+}
+
+.metro_scl_text h6 {
+    margin-bottom: 4px;
+}
+
+.Send_candidate_row .metro_scl_top {
+    padding-right: 10px;
+}
+.Candidate-Matches .edu_add_btn button span {
+    display: none;
+}
+
+.Candidate-Matches .edu_add_btn button {
+    padding: 0;
+}
+.Credentials_blk .Endorsements_content ul li, .Credentials_blk .Experience_content ul li {
+    flex: 0 0 100%;
+}
+
+.metro_scl_slider .metro_scl_blk {
+    flex: 0 0 80%;
+    margin: 8px auto;
+}
+
+.v3 .owl-nav {
+    top: auto;
+    width: 80%;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -7px;
+}
+
+.metro_scl_slider {
+    margin-bottom: 20px;
+}
+
+section.deshboard-Hero.v3 .deshboard-Hero_right h4 {
+    padding: 5px 20px;
+}
+.Credentials_blk {
+    margin-bottom: 40px;
+}
+.folio-req-wrp .folio-req_cont .ebc_left_select_item {
+    flex-direction: column;
+    align-items: start;
+    gap: 0;
+}
+
+.folio-req-wrp .folio-req_cont .ebc_left_select_item small {
+    display: none;
+}
+.folio-req-wrp .folio-req_cont div:first-child {
+    flex: 0 0 100%;
+}
+
+.folio-req-wrp .folio-req_cont {
+    flex-wrap: wrap;
+}
+
+.folio-req-wrp .metro_scl_blk {
+    max-width: 350px;
+    margin-inline: auto;
+}
+.create_folio {
+    transform: unset;
+    margin: auto;
+    padding: 30px 20px 50px;
+    margin-top: 20px;
+}
+
+.opt_btn {
+    margin: 50px auto;
+}
+
+.hero-area.v3 .hero_back_right {
+    margin: unset;
+    margin-top: 20px;
+}
+
+.hero-area.v3 {
+    padding-bottom: 30px;
+}
+
+.FolioView-area.v3 .ebc_top, .FolioView-area.v3 .ebc_btm {
+    margin: auto;
+    margin-bottom: 30px;
+}
+.FolioView-area.v3 .ebc_top .ebc__txt {
+    margin: 0;
+}
+
+section.FolioView-area.v3 {
+    padding-top: 50px;
+}
+
+.create_folio_top h1 {
+    font-size: 30px;
+}
+
+.create_folio_top p {
+    font-size: 14px;
+}
+
+.create_folio h4 {
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    line-height: 2;
+}
+.candi_hero {
+    padding-bottom: 110px;
+}
+
+.MyCandi_wrp hr {
+    margin: 35px 0 0px;
+}
+
+section.MyCandi-area {
+    margin-bottom: 50px;
+}
+
+}
+ 
+/* Large Mobile screen :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container {width:450px}
+ 
+}

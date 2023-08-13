@@ -1,0 +1,480 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Opt In / Out V2</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1"> 
+		<link rel="shortcut icon" type="image/x-icon" href="#">
+        <!-- Place favicon.ico in the root directory -->
+        
+		<!-- CSS here -->
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/owl.carousel.min.css"> 
+        <link rel="stylesheet" href="assets/css/fontawesome.min.css">  
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="assets/css/responsive.css">
+    </head>
+    <body>
+
+    <!-- header-area START -->
+    <div class="header-area" >
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-3 col-5">
+                    <div class="logo-area">
+                        <a href="index.html"><img src="assets/img/logo.svg" alt=""></a>
+                    </div>
+                </div>
+                <div class="col-lg-9 col-7  text-right">
+                    <div class="menu-area">
+                        <nav class="d-none d-lg-block">
+                            <ul id="nav">
+                                <li><a href="#">Dashboard</a></li>
+                                <li><a href="#">Positions Hub</a></li> 
+                                <li><a href="#">EIS Reports</a></li> 
+                                <li><a href="#">Folio Requests</a></li>  
+                            </ul>
+                        </nav>
+                        <div class="action_nav">
+                            <ul>
+                                <li class="filter"><a href="#" class="filter_btn"><img src="assets/img/filter.svg" alt=""></a></li>
+                                <li class="bdr"><a href="#" class="notifications_btn"><img src="assets/img/notifications.svg" alt=""> <span>2</span></a></li>
+                                <li><a href="#" class="settings_btn"><img src="assets/img/settings.svg" alt=""></a></li>
+                                <li class="mobile_menu_btn d-block d-lg-none">
+                                    <a href="#" class="siteBar-btn">
+                                        <img src="assets/img/hamburger.svg" class="hamburger" alt="">
+                                        <img src="assets/img/close.svg" class="close" alt="">
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- mobile-menu START -->
+    <div class="mobile-menu">
+        <div class="main_menu_mobile">
+            <ul>
+                <li><a href="#">Dashboard <i class="fas fa-chevron-right"></i></a></li>
+                <li><a href="#">Positions Hub <i class="fas fa-chevron-right"></i></a></li> 
+                <li><a href="#">EIS Reports <i class="fas fa-chevron-right"></i></a></li> 
+                <li><a href="#">Folio Requests <i class="fas fa-chevron-right"></i></a></li>  
+            </ul>
+        </div>
+        <div class="sort_btn_wrp">
+            <a href="#" class="thm_btn">Sort by Grade Band <i class="fas fa-chevron-down"></i></a>
+            <a href="#" class="thm_btn">Sort by School <i class="fas fa-chevron-down"></i></a>
+            <a href="#" class="thm_btn border">Clear All Filters</a>
+        </div>
+    </div> 
+    <!-- mobile-menu End -->
+
+    <!-- -Filter menu START -->
+    <div class="Filter_menu">
+        <div class="menu_header">
+            <h3>Filter View</h3>
+            <a href="#" class="close filter_btn"><i class="fal fa-times"></i></a>
+        </div>
+        <div class="Filter_menu_content scrollbar_style">
+            <a href="#" class="thm_btn border">Clear All Filters</a>
+            <div class="Filter_cont_blk">
+                <a href="#" class="thm_btn">Sort by Grade Band <i class="fas fa-chevron-up"></i></a>
+                <div class="Filter_cont_wrp">
+                    <ul class="t_left">
+                        <li>
+                            <label class="checkbox_container">Pre-K
+                                <input type="checkbox" checked="checked">
+                                <span class="checkmark"></span>
+                            </label>
+                        </li>
+                        <li>
+                            <label class="checkbox_container">Early Grades and Elementary (K–5)
+                                <input type="checkbox" >
+                                <span class="checkmark"></span>
+                            </label>
+                        </li>
+                        <li>
+                            <label class="checkbox_container">Middle Grades (6–8)
+                                <input type="checkbox" >
+                                <span class="checkmark"></span>
+                            </label>
+                        </li>
+                        <li>
+                            <label class="checkbox_container">High School (9–12)
+                                <input type="checkbox" >
+                                <span class="checkmark"></span>
+                            </label>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="Filter_cont_blk">
+                <a href="#" class="thm_btn">Sort by School <i class="fas fa-chevron-up"></i></a>
+                <div class="Filter_cont_wrp">
+                    <ul class="t_left">
+                        <li>
+                            <label class="checkbox_container">Clearton Elementary
+                                <input type="checkbox" checked="checked">
+                                <span class="checkmark"></span>
+                            </label>
+                        </li>
+                        <li>
+                            <label class="checkbox_container">Greendale Heights Elementary
+                                <input type="checkbox" >
+                                <span class="checkmark"></span>
+                            </label>
+                        </li>
+                        <li>
+                            <label class="checkbox_container deActive">Maple Valley Middle School
+                                <input type="checkbox" >
+                                <span class="checkmark"></span>
+                            </label>
+                        </li>
+                        <li>
+                            <label class="checkbox_container deActive">Oakton High School
+                                <input type="checkbox" >
+                                <span class="checkmark"></span>
+                            </label>
+                        </li>
+                        <li>
+                            <label class="checkbox_container">Sunny Springs Elementary
+                                <input type="checkbox" checked>
+                                <span class="checkmark"></span>
+                            </label>
+                        </li>
+                        <li>
+                            <label class="checkbox_container">Early Grades and Elementary (K–5)
+                                <input type="checkbox" >
+                                <span class="checkmark"></span>
+                            </label>
+                        </li>
+                        <li>
+                            <label class="checkbox_container">Middle Grades (6–8)
+                                <input type="checkbox" >
+                                <span class="checkmark"></span>
+                            </label>
+                        </li>
+                        <li>
+                            <label class="checkbox_container">High School (9–12)
+                                <input type="checkbox" >
+                                <span class="checkmark"></span>
+                            </label>
+                        </li>
+                        <li>
+                            <label class="checkbox_container">Early Grades and Elementary (K–5)
+                                <input type="checkbox" >
+                                <span class="checkmark"></span>
+                            </label>
+                        </li>
+                        <li>
+                            <label class="checkbox_container">Middle Grades (6–8)
+                                <input type="checkbox" >
+                                <span class="checkmark"></span>
+                            </label>
+                        </li>
+                        <li>
+                            <label class="checkbox_container">High School (9–12)
+                                <input type="checkbox" >
+                                <span class="checkmark"></span>
+                            </label>
+                        </li>
+                        <li>
+                            <label class="checkbox_container">Pre-K
+                                <input type="checkbox" >
+                                <span class="checkmark"></span>
+                            </label>
+                        </li>
+                        <li>
+                            <label class="checkbox_container">Early Grades and Elementary (K–5)
+                                <input type="checkbox" >
+                                <span class="checkmark"></span>
+                            </label>
+                        </li>
+                        <li>
+                            <label class="checkbox_container">Middle Grades (6–8)
+                                <input type="checkbox" >
+                                <span class="checkmark"></span>
+                            </label>
+                        </li>
+                        <li>
+                            <label class="checkbox_container">High School (9–12)
+                                <input type="checkbox" >
+                                <span class="checkmark"></span>
+                            </label>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- -Filter menu End -->
+
+    <!-- -Notification START -->
+    <div class="notifications_Menu">
+        <div class="menu_header">
+            <h3>Notification <br>
+                Center</h3>
+            <p>You have <span>2</span> new notifications</p>
+            <a href="#" class="close notifications_btn"><i class="fal fa-times"></i></a>
+        </div>
+        <ul class="notifications_list scrollbar_style">
+            <li>
+                <a href="#" class="notifications_blk active">
+                    <i class="fas fa-bell"></i>
+                    <div class="notific_text">
+                        <p>You have 20 new candidate matches</p>
+                        <span>2 Hours ago  •  Cascadia College EPP</span>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="notifications_blk active">
+                    <i class="fas fa-bell"></i>
+                    <div class="notific_text">
+                        <p>You have 20 new candidate matches</p>
+                        <span>2 Hours ago  •  Cascadia College EPP</span>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="notifications_blk ">
+                    <i class="fas fa-bell"></i>
+                    <div class="notific_text">
+                        <p>You have 20 new candidate matches</p>
+                        <span>2 Hours ago  •  Cascadia College EPP</span>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="notifications_blk ">
+                    <i class="fas fa-bell"></i>
+                    <div class="notific_text">
+                        <p>You have 20 new candidate matches</p>
+                        <span>2 Hours ago  •  Cascadia College EPP</span>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="notifications_blk ">
+                    <i class="fas fa-bell"></i>
+                    <div class="notific_text">
+                        <p>You have 20 new candidate matches</p>
+                        <span>2 Hours ago  •  Cascadia College EPP</span>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="notifications_blk ">
+                    <i class="fas fa-bell"></i>
+                    <div class="notific_text">
+                        <p>You have 20 new candidate matches</p>
+                        <span>2 Hours ago  •  Cascadia College EPP</span>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="notifications_blk ">
+                    <i class="fas fa-bell"></i>
+                    <div class="notific_text">
+                        <p>You have 20 new candidate matches</p>
+                        <span>2 Hours ago  •  Cascadia College EPP</span>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="notifications_blk ">
+                    <i class="fas fa-bell"></i>
+                    <div class="notific_text">
+                        <p>You have 20 new candidate matches</p>
+                        <span>2 Hours ago  •  Cascadia College EPP</span>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="notifications_blk ">
+                    <i class="fas fa-bell"></i>
+                    <div class="notific_text">
+                        <p>You have 20 new candidate matches</p>
+                        <span>2 Hours ago  •  Cascadia College EPP</span>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="notifications_blk ">
+                    <i class="fas fa-bell"></i>
+                    <div class="notific_text">
+                        <p>You have 20 new candidate matches</p>
+                        <span>2 Hours ago  •  Cascadia College EPP</span>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="notifications_blk ">
+                    <i class="fas fa-bell"></i>
+                    <div class="notific_text">
+                        <p>You have 20 new candidate matches</p>
+                        <span>2 Hours ago  •  Cascadia College EPP</span>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="notifications_blk ">
+                    <i class="fas fa-bell"></i>
+                    <div class="notific_text">
+                        <p>You have 20 new candidate matches</p>
+                        <span>2 Hours ago  •  Cascadia College EPP</span>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="notifications_blk ">
+                    <i class="fas fa-bell"></i>
+                    <div class="notific_text">
+                        <p>You have 20 new candidate matches</p>
+                        <span>2 Hours ago  •  Cascadia College EPP</span>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="notifications_blk ">
+                    <i class="fas fa-bell"></i>
+                    <div class="notific_text">
+                        <p>You have 20 new candidate matches</p>
+                        <span>2 Hours ago  •  Cascadia College EPP</span>
+                    </div>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <!-- -Notification End -->
+
+    <!-- -Settings START -->
+    <div class="Settings_menu">
+        <div class="menu_header">
+            <h3>Settings</h3>
+            <a href="#" class="close settings_btn"><i class="fal fa-times"></i></a>
+        </div>
+        <div class="sett_profile">
+            <h4>Profile</h4>
+            <p>bfett@metrocascadiaps.edu</p>
+            <a href="#" class="btn_sm">Change Email</a>
+            <a href="#" class="btn_sm">Change Password</a>
+        </div>
+        <div class="sett_email">
+            <h4>Email Preferences</h4>
+            <p>Select and save the types of email notifications you’d like to receive below. Email me when:</p>
+            <ul>
+                <li>
+                    <label class="checkbox_container">EIS reports are added
+                        <input type="checkbox" checked="checked">
+                        <span class="checkmark"></span>
+                    </label>
+                </li>
+                <li>
+                    <label class="checkbox_container">Positions list is sent to EPP(s)
+                        <input type="checkbox" >
+                        <span class="checkmark"></span>
+                    </label>
+                </li>
+                <li>
+                    <label class="checkbox_container">New position list matches are received
+                        <input type="checkbox" >
+                        <span class="checkmark"></span>
+                    </label>
+                </li>
+                <li>
+                    <label class="checkbox_container">New candidate folio is received
+                        <input type="checkbox" >
+                        <span class="checkmark"></span>
+                    </label>
+                </li>
+            </ul>
+            <a href="#" class="thm_btn border">Save Preferences </a>
+        </div>
+    </div>
+    <!-- -Settings End -->
+
+    <!-- header-area END -->
+
+
+    <main>
+        
+        <!---------hero Section START ---------->
+        <section class="hero-area opt-hero">
+            <div class="container">
+            </div>
+        </section>
+        <!---------hero Section End ---------->
+
+
+        <!---------CollegeEPP Section START ---------->
+        <section class="CollegeEPP-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="CollegeEPP_content">
+                            <b>07-01-23  •  Metro Cascadia Public Schools</b>
+                            <h3>Request to receive data</h3>
+                            <p>You have new candidate matches available. To opt in and receive positions lists from Metro Cascadia Public Schools , select the option “Yes, Receive Data” below. If you do NOT wish to receive positions lists from Metro Cascadia Public Schools, select “No, Back to Positions Hub.”</p>
+                            <div class="CollegeEPP_btn">
+                                <a href="#" class="thm_btn">Yes, Receive Data</a>
+                                <a href="#" class="thm_btn border">No, Back to Positions Hub</a>
+                            </div>
+                            <hr>
+                            <span>
+                                *By opting in to receive data, you consent to the collection, use, and processing of your personal information for the purpose of delivering relevant updates, promotions, and information from our company. This may include text messages, emails, or other forms of communication. You understand and acknowledge that your consent is voluntary and that you have the right to withdraw it at any time.
+                            </span>
+                            <span>Note: We respect your privacy and are committed to protecting your personal information. For more details on how we handle and safeguard your data, please review our privacy policy available on our website.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!---------CollegeEPP Section End ---------->
+
+    </main>
+
+
+
+    
+    <!---------Footer Section Start ---------->
+    <footer class="footer-area ">
+        <div class="container">
+            <div class="row">
+                <div class="footer_content">
+                    <ul>
+                        <li>
+                            <a href="#">Privacy</a>
+                        </li>
+                        <li>
+                            <a href="#">Terms of Use</a>
+                        </li>
+                        <li>
+                            <a href="#">Settings</a>
+                        </li>
+                    </ul>
+                    <p>© Copyright 2023</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!---------Footer Section End ---------->
+
+
+
+    
+		<!-- JS here --> 
+        <script src="assets/js/jquery-3.4.1.min.js"></script>
+        <script src="assets/js/popper.min.js"></script>
+        <script src="assets/js/bootstrap.min.js"></script>
+        <script src="assets/js/owl.carousel.min.js"></script> 
+        <script src="assets/js/main.js"></script>
+
+    </body>
+</html>
+
